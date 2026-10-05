@@ -3,14 +3,8 @@
   "nazwa": "Hiszpania",
   "powitanie": "¡Hola! ¿Qué tal?",
   "hero": {
-    "tytul": "Hiszpania — kraj flamenco, fiesty i sjesty",
-    "lead": "Od mauretańskich pałaców Andaluzji po gotyckie katedry północy. Poznaj kraj, w którym obiad jada się o piętnastej, a Nowy Rok wita dwunastoma winogronami.",
-    "statystyki": [
-      { "w": "48 mln", "t": "mieszkańców" },
-      { "w": "17", "t": "wspólnot autonomicznych" },
-      { "w": "50", "t": "obiektów UNESCO" },
-      { "w": "12", "t": "zwrotów z lektorem" }
-    ]
+    "tytul": "Pawilon Hiszpanii: Dziedzictwo Iberii, Sztuka i Tradycja",
+    "lead": "Półwysep Iberyjski to wielowarstwowa przestrzeń cywilizacyjna, ukształtowana przez fuzję tradycji rzymskiej, arabskiej oraz chrześcijańskiej. Dzisiejsza Hiszpania to mozaika autonomicznych wspólnot o silnych tożsamościach historycznych, lingwistycznych i kulturowych."
   },
   "geografia": {
     "tytul": "Geografia w pigułce",
@@ -18,44 +12,44 @@
     "akapity": [
       "Stolicą jest Madryt, położony na rozległym płaskowyżu Meseta, prawie w samym środku kraju. Największe rzeki to Ebro, Duero, Tag (Tajo) i Gwadalkiwir. Na południu wznoszą się góry Sierra Nevada z najwyższym szczytem kontynentalnej Hiszpanii — Mulhacén (3479 m).",
       "Do Hiszpanii należą też wyspy: Baleary na Morzu Śródziemnym z imprezową Ibizą oraz Wyspy Kanaryjskie na Atlantyku z wulkanem Teide — najwyższym szczytem całej Hiszpanii (3718 m).",
-      "Klimat śródziemnomorski oznacza gorące, suche lata i łagodne zimy. Nic dziwnego, że narodziła się tu sjesta — popołudniowa przerwa w największy upał, zwykle między 14:00 a 17:00."
+      "Na wybrzeżu śródziemnomorskim lata są gorące i suche, a zimy łagodne. Północ jest bardziej wilgotna, natomiast w głębi kraju zimą bywa chłodno. Sjesta to odpoczynek po obiedzie, ale nie jest codziennym zwyczajem wszystkich Hiszpanów."
     ],
     "fakty": [
       { "w": "505 tys. km²", "t": "powierzchnia — 2. kraj UE" },
-      { "w": "Madryt", "t": "stolica, 3,3 mln mieszkańców" },
+      { "w": "Madryt", "t": "stolica w środkowej części kraju" },
       { "w": "euro", "t": "waluta od 2002 roku" },
-      { "w": "4 języki", "t": "kastylijski, kataloński, galicyjski, baskijski" }
+      { "w": "Wiele języków", "t": "m.in. kastylijski, kataloński, galicyjski i baskijski" }
     ]
   },
   "historia": [
     { "rok": "ok. 200 p.n.e.", "t": "Hispania pod Rzymem", "o": "Rzymianie budują drogi, akwedukty (Segowia!) i miasta. Łacina staje się zalążkiem hiszpańskiego." },
     { "rok": "711–1492", "t": "Al-Andalus", "o": "Maurowie tworzą kwitnącą cywilizację: Kordoba, Sewilla, Grenada. Powstaje Alhambra i Wielki Meczet w Kordobie." },
     { "rok": "1492", "t": "Rekonkwista i Kolumb", "o": "Upadek Grenady kończy 781 lat walki. Kolumb dociera do Ameryki — zaczyna się epoka imperium." },
-    { "rok": "XVI–XVII w.", "t": "Złoty Wiek", "o": "Imperium, z którego „nie zachodzi słońce”. Cervantes pisze Don Kichota, Velázquez maluje, teatr Lope de Vegi bawi tłumy." },
+    { "rok": "XVI–XVII w.", "t": "Siglo de Oro", "o": "Rozkwit literatury i sztuki. Cervantes pisze Don Kichota, Velázquez tworzy obrazy, a Lope de Vega rozwija teatr." },
     { "rok": "1936–1939", "t": "Wojna domowa", "o": "Tragiczny konflikt, po którym władzę przejmuje gen. Franco. Guernica Picassa staje się symbolem cierpienia." },
     { "rok": "1978", "t": "Konstytucja i demokracja", "o": "Hiszpania staje się monarchią parlamentarną. Wspólnoty autonomiczne zyskują własne rządy i języki w szkołach." },
     { "rok": "1986", "t": "Wspólnota Europejska", "o": "Hiszpania wchodzi do EWG (dziś UE). Rozpoczyna się boom gospodarczy i turystyczny." },
     { "rok": "1992", "t": "Rok Barcelony i Sewilli", "o": "Igrzyska olimpijskie w Barcelonie i Expo w Sewilli pokazują światu nową, otwartą Hiszpanię." }
   ],
   "swieta": [
-    { "icon": "i-pomidor", "t": "La Tomatina — Buñol, ostatnia środa sierpnia", "d": "Najsłynniejsza bitwa na pomidory świata. 150 ton pomidorów, godzina zabawy, potem mycie miasta wężami strażackimi. Zaczęło się od młodzieńczej bójki w 1945 roku." },
-    { "icon": "i-ogien", "t": "Las Fallas — Walencja, 15–19 marca", "d": "Tygodniowe święto ognia: gigantyczne, satyryczne kukły (fallas) parodiują polityków i celebrytów, a finałowej nocy wszystko płonie w wielkiej Cremà. Ocalałą kukłę wybiera głosowanie." },
-    { "icon": "i-byk", "t": "San Fermín — Pampeluna, 6–14 lipca", "d": "Słynna gonitwa byków ulicami miasta (encierro) o 8:00 rano, opisana przez Hemingwaya. Uczestnicy w bieli z czerwonymi chustami." },
-    { "icon": "i-kosciol", "t": "Semana Santa — Sewilla, Wielki Tydzień", "d": "Poruszające procesje z platformami (pasos) niosącymi figury Chrystusa i Matki Boskiej. Pokutnicy w spiczastych kapturach (capirotes), orkiestry i zapach kadzidła." },
-    { "icon": "i-winogrona", "t": "Sylwester — 12 winogron", "d": "Hiszpanie witają Nowy Rok, jedząc po jednym winogronie na każde z dwunastu uderzeń zegara na Puerta del Sol w Madrycie. Kto zdąży — ma szczęście na cały rok." }
+    { "icon": "i-pomidor", "plik": "foto/es-alhambra.jpg", "podpisFoto": "Fot. Diego Delso, CC BY-SA 4.0, via Wikimedia Commons", "t": "La Tomatina — Buñol, ostatnia środa sierpnia", "d": "Najsłynniejsza bitwa na pomidory świata. 150 ton pomidorów, godzina zabawy, potem mycie miasta wężami strażackimi. Zaczęło się od młodzieńczej bójki w 1945 roku." },
+    { "icon": "i-ogien", "plik": "foto/es-flamenco.jpg", "podpisFoto": "Fot. Raymonst3, CC BY-SA 4.0, via Wikimedia Commons", "t": "Las Fallas — Walencja, 15–19 marca", "d": "Tygodniowe święto ognia: gigantyczne, satyryczne kukły (fallas) parodiują polityków i celebrytów, a finałowej nocy wszystko płonie w wielkiej Cremà. Ocalałą kukłę wybiera głosowanie." },
+    { "icon": "i-byk", "plik": "foto/es-sagrada.jpg", "podpisFoto": "Fot. Matti Blume, CC BY-SA 4.0, via Wikimedia Commons", "t": "San Fermín — Pampeluna, 6–14 lipca", "d": "Słynna gonitwa byków ulicami miasta (encierro) o 8:00 rano, opisana przez Hemingwaya. Uczestnicy w bieli z czerwonymi chustami." },
+    { "icon": "i-kosciol", "plik": "foto/es-guell.jpg", "podpisFoto": "Fot. Danbu14, CC BY-SA 3.0, via Wikimedia Commons", "t": "Semana Santa — Sewilla, Wielki Tydzień", "d": "Poruszające procesje z platformami (pasos) niosącymi figury Chrystusa i Matki Boskiej. Pokutnicy w spiczastych kapturach (capirotes), orkiestry i zapach kadzidła." },
+    { "icon": "i-winogrona", "plik": "foto/es-mezquita.jpg", "podpisFoto": "Fot. Adrian Farwell, CC BY 3.0, via Wikimedia Commons", "t": "Sylwester — 12 winogron", "d": "Hiszpanie witają Nowy Rok, jedząc po jednym winogronie na każde z dwunastu uderzeń zegara na Puerta del Sol w Madrycie. Kto zdąży — ma szczęście na cały rok." }
   ],
   "kuchnia": [
     { "icon": "i-patelnia", "plik": "foto/es-paella.jpg", "podpisFoto": "Fot. Jan Harenburg, CC BY-SA 4.0, via Wikimedia Commons", "t": "Paella walencjańska", "d": "Ryż z szafranem gotowany na szerokiej patelni. Oryginał: królik, kurczak, fasola. Jedzona w niedziele, wprost z patelni, z cytryną." },
-    { "icon": "i-miska", "t": "Tapas", "d": "Małe przekąski do wina: oliwki, ser manchego, szynka jamón, krewetki al ajillo. W León i Grenadzie tapas dostaniesz gratis do napoju!" },
-    { "icon": "i-patelnia", "t": "Tortilla española", "d": "Gruby omlet z ziemniaków i cebuli. Spór narodowy: z cebulą (con cebolla) czy bez (sin cebolla)?" },
-    { "icon": "i-czekolada", "t": "Churros z czekoladą", "d": "Smażone paluszki z ciasta parzonego, maczane w gęstej czekoladzie. Klasyczne śniadanie po nocnej fieście." },
-    { "icon": "i-kubek", "t": "Horchata i tinto de verano", "d": "Orzeźwiająca horchata z cibory (chufy) oraz letnie wino z lemoniadą — ulubione napoje upalnego południa." }
+    { "icon": "i-miska", "plik": "foto/es-churros.jpg", "podpisFoto": "Fot. jonmcalister, CC BY-SA 2.0, via Wikimedia Commons", "t": "Tapas", "d": "Małe przekąski do wina: oliwki, ser manchego, szynka jamón, krewetki al ajillo. W León i Grenadzie tapas dostaniesz gratis do napoju!" },
+    { "icon": "i-patelnia", "plik": "foto/es-tortilla.jpg", "podpisFoto": "Fot. Centenoyespelta, CC BY-SA 4.0, via Wikimedia Commons", "t": "Tortilla española", "d": "Gruby omlet z ziemniaków i cebuli. Spór narodowy: z cebulą (con cebolla) czy bez (sin cebolla)?" },
+    { "icon": "i-czekolada", "plik": "foto/es-horchata.jpg", "podpisFoto": "Fot. Photocapy, CC BY-SA 2.0, via Wikimedia Commons", "t": "Churros z czekoladą", "d": "Smażone paluszki z ciasta parzonego, maczane w gęstej czekoladzie. Klasyczne śniadanie po nocnej fieście." },
+    { "icon": "i-kubek", "plik": "foto/es-segovia.jpg", "podpisFoto": "Fot. Diego Delso, CC BY-SA 4.0, via Wikimedia Commons", "t": "Horchata i tinto de verano", "d": "Orzeźwiająca horchata z cibory (chufy) oraz letnie wino z lemoniadą — ulubione napoje upalnego południa." }
   ],
   "muzyka": [
-    { "icon": "i-wachlarz", "t": "Flamenco — dusza Andaluzji", "d": "Śpiew (cante), taniec (baile) i gitara (toque). Płaczliwy śpiew o miłości i stracie, tupot obcasów, okrzyki ¡olé! W 2010 roku flamenco wpisano na listę UNESCO." },
-    { "icon": "i-gitara", "t": "Gitara hiszpańska", "d": "Klasyczna gitara z nylonowymi strunami. Wirtuozi: Andrés Segovia, Paco de Lucía, który połączył flamenco z jazzem." },
-    { "icon": "i-marakasy", "t": "Kastaniety i cajón", "d": "Kastaniety (castañuelas) wybijają rytm w tańcu, a skrzyniowy bęben cajón — pierwotnie skrzynia na ryby — napędza rumby." },
-    { "icon": "i-druzyna", "t": "Paso doble i sardana", "d": "Paso doble rozbrzmiewa na arenach byków, a w Katalonii tańczy się spokojną sardanę w wielkim kole na placu." }
+    { "icon": "i-wachlarz", "plik": "foto/es-flamenco.jpg", "podpisFoto": "Fot. Raymonst3, CC BY-SA 4.0, via Wikimedia Commons", "t": "Flamenco — dusza Andaluzji", "d": "Śpiew (cante), taniec (baile) i gitara (toque). Płaczliwy śpiew o miłości i stracie, tupot obcasów, okrzyki ¡olé! W 2010 roku flamenco wpisano na listę UNESCO." },
+    { "icon": "i-gitara", "plik": "foto/es-guell.jpg", "podpisFoto": "Fot. Danbu14, CC BY-SA 3.0, via Wikimedia Commons", "t": "Gitara hiszpańska", "d": "Klasyczna gitara z nylonowymi strunami. Wirtuozi: Andrés Segovia, Paco de Lucía, który połączył flamenco z jazzem." },
+    { "icon": "i-marakasy", "plik": "foto/es-segovia.jpg", "podpisFoto": "Fot. Diego Delso, CC BY-SA 4.0, via Wikimedia Commons", "t": "Kastaniety i cajón", "d": "Kastaniety (castañuelas) to małe instrumenty perkusyjne trzymane w dłoniach. Cajón jest drewnianą skrzynką, na której siedzi muzyk. Wywodzi się z Peru i został przyjęty także we flamenco." },
+    { "icon": "i-druzyna", "plik": "foto/es-alhambra.jpg", "podpisFoto": "Fot. Juan Laurent, domena publiczna, via Wikimedia Commons", "t": "Paso doble i sardana", "d": "Paso doble rozbrzmiewa na arenach byków, a w Katalonii tańczy się spokojną sardanę w wielkim kole na placu." }
   ],
   "zabytki": [
     { "icon": "i-kosciol", "plik": "foto/es-sagrada.jpg", "podpisFoto": "Fot. Matti Blume, CC BY-SA 4.0, via Wikimedia Commons", "t": "Sagrada Família, Barcelona", "d": "Bazylika Gaudiego budowana od 1882 roku — jak las z kamienia. Ukończenie planowane na lata 30. XXI wieku.", "foto": "Gaudí, secesja katalońska" },
@@ -68,9 +62,9 @@
   "jezyk": {
     "lead": "Hiszpański z Hiszpanii brzmi inaczej niż meksykański. Oto znaki szczególne odmiany europejskiej:",
     "punkty": [
-      "Ceceo: litery c (przed e, i) i z wymawia się jak angielskie th — gracias brzmi graθjas.",
+      "W znacznej części Hiszpanii odróżnia się s od c (przed e, i) i z. Te ostatnie brzmią jak bezdźwięczne th w angielskim think. To distinción. Na Wyspach Kanaryjskich i w części Andaluzji występuje też seseo, czyli wymowa wszystkich tych liter jak s.",
       "Vosotros: Hiszpanie mówią do grupy vosotros (wy) z własną odmianą — ¿vosotros queréis? Meksykanie używają ustedes.",
-      "Vale i venga: uniwersalne vale (okej, dobra) usłyszysz co minutę. Tío/tía to potocznie ziomek, ziomalka.",
+      "Vale znaczy „okej” lub „dobra”. Tío i tía dosłownie oznaczają wujka i ciocię, ale w swobodnej rozmowie mogą też być zwrotem do znajomego.",
       "Anglicyzmy z hiszpańską wymową: el fútbol, el finde (weekend), hacer footing (biegać)."
     ]
   },
@@ -88,18 +82,22 @@
     { "es": "Hasta luego", "pl": "Do zobaczenia", "fon": "asta luego" },
     { "es": "¡Felices fiestas!", "pl": "Wesołych świąt!", "fon": "feliθes fiestas" }
   ],
-  "quiz": [
-    { "p": "Stolicą Hiszpanii jest…", "o": ["Madryt", "Barcelona", "Sewilla", "Walencja"], "c": 0, "w": "Madryt leży na płaskowyżu Meseta w samym środku kraju i jest stolicą od 1561 roku." },
-    { "p": "La Tomatina to święto…", "o": ["bitwy na pomidory", "ognisk i kukieł", "gonitwy byków", "procesji wielkanocnych"], "c": 0, "w": "W Buñol co roku leci 150 ton pomidorów — zaczęło się od bójki młodzieży w 1945 roku." },
-    { "p": "Sagrada Família znajduje się w…", "o": ["Barcelonie", "Madrycie", "Sewilli", "Bilbao"], "c": 0, "w": "Bazylika Gaudiego powstaje od 1882 roku i wciąż jest w budowie." },
-    { "p": "Flamenco pochodzi z…", "o": ["Andaluzji", "Katalonii", "Galicji", "Aragonii"], "c": 0, "w": "Andaluzja na południu to kolebka śpiewu, tańca i gitary flamenco (UNESCO 2010)." },
-    { "p": "Alhambra to zabytek w…", "o": ["Grenadzie", "Toledo", "Kordobie", "Saragossie"], "c": 0, "w": "Czerwony pałac emirów z dynastii Nasrydów stoi na wzgórzu nad Grenadą." },
-    { "p": "San Fermín odbywa się w…", "o": ["Pampelunie", "Maladze", "Walencji", "Leonie"], "c": 0, "w": "Gonitwa byków ulicami Pampeluny odbywa się co roku 6–14 lipca." },
-    { "p": "Paella pochodzi z regionu…", "o": ["Walencji", "Asturii", "Baskonii", "Extremadury"], "c": 0, "w": "Oryginalna paella walencjańska to ryż z szafranem, królikiem i fasolą." },
-    { "p": "Sjesta to…", "o": ["popołudniowa przerwa w upał", "poranny taniec", "rodzaj gitary", "festiwal ognia"], "c": 0, "w": "Przerwa między 14:00 a 17:00 pozwala przetrwać największy upał dnia." },
-    { "p": "Hiszpanie witają Nowy Rok…", "o": ["jedząc 12 winogron", "puszczając lampiony", "paląc kukły", "kąpiąc się w morzu"], "c": 0, "w": "Po jednym winogronie na każde uderzenie zegara na Puerta del Sol w Madrycie." },
-    { "p": "Akwedukt w Segowii zbudowali…", "o": ["Rzymianie", "Maurowie", "Wizygoci", "Fenicjanie"], "c": 0, "w": "167 granitowych łuków złożono bez zaprawy około 50 roku n.e." },
-    { "p": "Słowo „vale” znaczy mniej więcej…", "o": ["okej, dobra", "dziękuję", "przepraszam", "do widzenia"], "c": 0, "w": "Vale usłyszysz w Hiszpanii co minutę — to uniwersalne potwierdzenie." },
-    { "p": "Do Hiszpanii NIE należy…", "o": ["Jukatan", "Ibiza", "Teneryfa", "Majorka"], "c": 0, "w": "Jukatan leży w Meksyku; Ibiza, Teneryfa i Majorka to hiszpańskie wyspy." }
-  ]
+  "quiz": {
+    "sp": [
+      { "question": "Stolicą Hiszpanii jest…", "options": ["Madryt", "Barcelona", "Sewilla", "Walencja"], "correct": 0, "explanation": "Madryt leży na płaskowyżu Meseta w samym środku kraju i jest stolicą od 1561 roku." },
+      { "question": "La Tomatina to święto…", "options": ["bitwy na pomidory", "ognisk i kukieł", "gonitwy byków", "procesji wielkanocnych"], "correct": 0, "explanation": "W Buñol co roku leci 150 ton pomidorów — zaczęło się od bójki młodzieży w 1945 roku." },
+      { "question": "Sagrada Família znajduje się w…", "options": ["Barcelonie", "Madrycie", "Sewilli", "Bilbao"], "correct": 0, "explanation": "Bazylika Gaudiego powstaje od 1882 roku i wciąż jest w budowie." },
+      { "question": "Flamenco pochodzi z…", "options": ["Andaluzji", "Katalonii", "Galicji", "Aragonii"], "correct": 0, "explanation": "Andaluzja na południu to kolebka śpiewu, tańca i gitary flamenco (UNESCO 2010)." },
+      { "question": "Alhambra to zabytek w…", "options": ["Grenadzie", "Toledo", "Kordobie", "Saragossie"], "correct": 0, "explanation": "Czerwony pałac emirów z dynastii Nasrydów stoi na wzgórzu nad Grenadą." },
+      { "question": "San Fermín odbywa się w…", "options": ["Pampelunie", "Maladze", "Walencji", "Leonie"], "correct": 0, "explanation": "Święto trwa od 6 do 14 lipca. Biegi z bykami odbywają się od 7 do 14 lipca." }
+    ],
+    "lo": [
+      { "question": "Paella pochodzi z regionu…", "options": ["Walencji", "Asturii", "Baskonii", "Extremadury"], "correct": 0, "explanation": "Oryginalna paella walencjańska to ryż z szafranem, królikiem i fasolą." },
+      { "question": "Sjesta to…", "options": ["odpoczynek po obiedzie", "poranny taniec", "rodzaj gitary", "festiwal ognia"], "correct": 0, "explanation": "Sjesta oznacza odpoczynek, często krótką drzemkę po obiedzie. Nie wszyscy Hiszpanie praktykują ją na co dzień." },
+      { "question": "Hiszpanie witają Nowy Rok…", "options": ["jedząc 12 winogron", "puszczając lampiony", "paląc kukły", "kąpiąc się w morzu"], "correct": 0, "explanation": "Po jednym winogronie na każde uderzenie zegara na Puerta del Sol w Madrycie." },
+      { "question": "Akwedukt w Segowii zbudowali…", "options": ["Rzymianie", "Maurowie", "Wizygoci", "Fenicjanie"], "correct": 0, "explanation": "167 granitowych łuków złożono bez zaprawy około 50 roku n.e." },
+      { "question": "Słowo „vale” znaczy mniej więcej…", "options": ["okej, dobra", "dziękuję", "przepraszam", "do widzenia"], "correct": 0, "explanation": "Vale usłyszysz w Hiszpanii co minutę — to uniwersalne potwierdzenie." },
+      { "question": "Do Hiszpanii NIE należy…", "options": ["Jukatan", "Ibiza", "Teneryfa", "Majorka"], "correct": 0, "explanation": "Jukatan leży w Meksyku; Ibiza, Teneryfa i Majorka to hiszpańskie wyspy." }
+    ]
+  }
 }

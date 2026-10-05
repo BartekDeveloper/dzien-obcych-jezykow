@@ -46,8 +46,8 @@
     { "es": "la calle", "pl": "ulica", "fon": "la kaje" },
     { "es": "el museo", "pl": "muzeum", "fon": "el museo" },
     { "es": "el regalo", "pl": "prezent", "fon": "el regalo" },
-    { "es": "el mariachi", "pl": "muzyk ludowy", "fon": "el marjaci" },
-    { "es": "la piñata", "pl": "figura z niespodziankami", "fon": "la pinjata" },
+    { "es": "el mariachi", "pl": "muzyk lub zespół mariachi", "fon": "el mariaczi" },
+    { "es": "la piñata", "pl": "ozdobna figura wypełniona niespodziankami", "fon": "la piniata" },
     { "es": "el chile", "pl": "papryczka chili", "fon": "el czile" },
     { "es": "la salsa", "pl": "sos", "fon": "la salsa" }
   ],
@@ -57,14 +57,14 @@
       "kwestie": [
         { "es": "Buenas tardes. ¿Mesa para dos?", "pl": "Dzień dobry. Stolik dla dwojga?" },
         { "es": "Sí, por favor. ¿Tienen tacos al pastor?", "pl": "Tak, proszę. Czy mają państwo tacos al pastor?" },
-        { "es": "Claro que sí. ¿Pica mucho?", "pl": "Oczywiście. Czy to bardzo ostre?" },
-        { "es": "Un poco. Con limón pica menos.", "pl": "Trochę. Z limonką jest łagodniej." },
+        { "es": "¿La salsa pica mucho?", "pl": "Czy sos jest bardzo ostry?" },
+        { "es": "Un poco. También tenemos una salsa suave.", "pl": "Trochę. Mamy też łagodny sos." },
         { "es": "Entonces, dos tacos y una limonada.", "pl": "W takim razie dwa tacos i lemoniadę." },
         { "es": "¿Algo más? ¿Un postre?", "pl": "Coś jeszcze? Może deser?" },
         { "es": "No, gracias. La cuenta, por favor.", "pl": "Nie, dziękuję. Rachunek, proszę." }
       ],
       "slowa": [
-        { "es": "pica", "pl": "jest ostre (od piec)", "fon": "pika" },
+        { "es": "pica", "pl": "jest ostre w smaku", "fon": "pika" },
         { "es": "la cuenta", "pl": "rachunek", "fon": "la kuenta" },
         { "es": "el postre", "pl": "deser", "fon": "el postre" }
       ]
@@ -72,28 +72,28 @@
     {
       "tytul": "Na fieście (Hiszpania)", "lang": "es-ES",
       "kwestie": [
-        { "es": "¡Hola! ¿Es tu primera Tomatina?", "pl": "Cześć! To twoja pierwsza Tomatina?" },
+        { "es": "¡Hola! ¿Es tu primera fiesta aquí?", "pl": "Cześć! To twoja pierwsza fiesta tutaj?" },
         { "es": "Sí. ¿A qué hora empieza?", "pl": "Tak. O której się zaczyna?" },
-        { "es": "A las once. Ponte esta camiseta blanca.", "pl": "O jedenastej. Włóż tę białą koszulkę." },
-        { "es": "¿Y después hay flamenco?", "pl": "A potem jest flamenco?" },
-        { "es": "Por la noche, en la plaza. ¡Olé!", "pl": "Wieczorem, na placu. Olé!" },
+        { "es": "A las ocho, en la plaza.", "pl": "O ósmej, na placu." },
+        { "es": "¿Hay música en directo?", "pl": "Czy jest muzyka na żywo?" },
+        { "es": "Sí, y también hay puestos de comida.", "pl": "Tak, są też stoiska z jedzeniem." },
         { "es": "¡Qué bien! ¿Vamos juntos?", "pl": "Jak świetnie! Idziemy razem?" },
         { "es": "¡Vale! Hasta luego.", "pl": "Dobra! Do zobaczenia." }
       ],
       "slowa": [
         { "es": "la camiseta", "pl": "koszulka", "fon": "la kamiseta" },
-        { "es": "la plaza", "pl": "plac", "fon": "la plasa" },
+        { "es": "la plaza", "pl": "plac", "fon": "la platha (Hiszpania; th jak w angielskim think)" },
         { "es": "vale", "pl": "dobra, okej", "fon": "bale" }
       ]
     }
   ],
   "wymowa": [
     { "zasada": "H jest nieme", "przyklad": "hotel", "fon": "otel", "pl": "Nigdy go nie wymawiaj: hola brzmi ola." },
-    { "zasada": "J brzmi jak polskie ch", "przyklad": "jamón", "fon": "chamon", "pl": "Szynka: jamón. Gardłowe, jak chrząkanie." },
-    { "zasada": "LL brzmi jak j", "przyklad": "calle", "fon": "kaje", "pl": "Ulica: calle. Tak samo w słowie paella." },
+    { "zasada": "J przypomina polskie ch", "przyklad": "jamón", "fon": "cha-MON", "pl": "Jamón to szynka. W wielu odmianach hiszpańskiego j przypomina polskie ch, choć jego brzmienie zależy od regionu." },
+    { "zasada": "LL często przypomina j", "przyklad": "calle", "fon": "KA-je", "pl": "Calle to ulica. Wymowa ll różni się regionalnie; w wielu miejscach jest podobna do y." },
     { "zasada": "Ñ to miękkie ni", "przyklad": "niño", "fon": "ninio", "pl": "Dziecko: niño. Kreseczka zmienia wszystko." },
     { "zasada": "RR jest drżące", "przyklad": "perro", "fon": "perro (wibrujące r)", "pl": "Pies: perro. Jedno r to pero (ale) — uważaj!" },
-    { "zasada": "C i Z: Hiszpania sepleni, Meksyk nie", "przyklad": "gracias", "fon": "graθjas (ES) / grasjas (MX)", "pl": "W Madrycie usłyszysz th, w Meksyku zwykłe s." },
-    { "zasada": "Akcent pisany pokazuje stres", "przyklad": "música", "fon": "MUsika", "pl": "Kreska mówi, którą sylabę zaakcentować. Bez kreski akcent pada zwykle na przedostatnią: taco." }
+    { "zasada": "C i Z: dwie poprawne wymowy", "przyklad": "gracias", "fon": "GRA-thjas (Madryt) / GRA-sjas (Meksyk)", "pl": "W znacznej części Hiszpanii c przed e/i oraz z brzmią jak th w angielskim think. W Meksyku, na Wyspach Kanaryjskich i w części Andaluzji wymawia się je jak s. Obie wymowy są poprawne.", "porownaj": true },
+    { "zasada": "Kreska wskazuje akcentowaną sylabę", "przyklad": "música", "fon": "MU-sika", "pl": "Znak á, é, í, ó lub ú wskazuje akcent. Bez kreski wyrazy zakończone samogłoską, n lub s mają zwykle akcent na przedostatniej sylabie; zakończone inną spółgłoską — na ostatniej." }
   ]
 }

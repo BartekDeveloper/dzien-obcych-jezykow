@@ -1,4 +1,4 @@
-import { hydrateRoot } from 'react-dom/client';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 
@@ -8,4 +8,6 @@ if (sciezka.startsWith(BAZA)) sciezka = sciezka.slice(BAZA.length);
 sciezka = sciezka.replace(/\/$/, '') || '/';
 if (!['/', '/hiszpania', '/meksyk', '/gry'].includes(sciezka)) sciezka = '/';
 
-hydrateRoot(document.getElementById('root'), <App sciezka={sciezka} />);
+const root = document.getElementById('root');
+if (root.hasChildNodes()) hydrateRoot(root, <App sciezka={sciezka} />);
+else createRoot(root).render(<App sciezka={sciezka} />);

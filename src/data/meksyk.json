@@ -14,14 +14,14 @@
   },
   "geografia": {
     "tytul": "Geografia w pigułce",
-    "lead": "Meksyk łączy Amerykę Północną z Środkową: pustynie na północy, wulkany w centrum i tropikalną dżunglę na południu.",
+    "lead": "Meksyk leży w Ameryce Północnej: na północy ma pustynie, w centrum wulkany, a na południu lasy tropikalne.",
     "akapity": [
       "Stolicą jest Ciudad de México — jedna z największych metropolii świata, zbudowana na miejscu azteckiego Tenochtitlánu, na wysokości 2240 m n.p.m. Półwysep Jukatan kryje miasta Majów i podziemne studnie cenotes, a wybrzeża oblewają dwa oceany: Spokojny i Atlantyk (Morze Karaibskie).",
-      "Przez środek kraju biegnie wulkaniczny Transmeksykański Pas Wulkaniczny z czynnym Popocatépetlem, którego Aztekowie nazywali Dymiącą Górą. Na pustyni Chihuahua rosną gigantyczne kaktusy saguaro, a w jeziorach Xochimilco żyje aksolotl — płaz potrafiący odbudować serce.",
-      "Meksyk to też królestwo kukurydzy: uprawia się tu 60 jej odmian. Z kukurydzy powstają tortilla, tacos, tamales i pozole — podstawa kuchni wpisanej na listę UNESCO."
+      "Przez środek kraju biegnie Transmeksykański Pas Wulkaniczny z czynnym Popocatépetlem. Jego nazwa w języku nahuatl oznacza Dymiącą Górę. Kaktusy saguaro rosną na pustyni Sonora. W kanałach Xochimilco żyje aksolotl meksykański — płaz znany ze zdolności regeneracji części ciała.",
+      "Kukurydza jest podstawą wielu potraw. Powstają z niej tortille, tamales i pozole. Tradycyjna kuchnia meksykańska została wpisana na listę niematerialnego dziedzictwa UNESCO w 2010 roku."
     ],
     "fakty": [
-      { "w": "2 mln km²", "t": "powierzchnia — 4 razy Polska" },
+      { "w": "Około 2 mln km²", "t": "ponad sześć razy powierzchnia Polski" },
       { "w": "Ciudad de México", "t": "stolica, 22 mln w metropolii" },
       { "w": "peso meksykańskie", "t": "waluta (znak $ też!)" },
       { "w": "2 oceany", "t": "Spokojny i Atlantycki" }
@@ -29,9 +29,9 @@
   },
   "historia": [
     { "rok": "ok. 1200 p.n.e.", "t": "Olmekowie i pierwsze miasta", "o": "Na wybrzeżu Zatoki Meksykańskiej powstaje pierwsza wielka cywilizacja Mezoameryki — słynna z gigantycznych kamiennych głów." },
-    { "rok": "250–900 n.e.", "t": "Klasyczni Majowie", "o": "Miasta Chichén Itzá, Palenque i Uxmal. Kalendarz dokładniejszy niż europejski, pismo hieroglificzne, piramidy-schody do nieba." },
+    { "rok": "250–900 n.e.", "t": "Klasyczny okres cywilizacji Majów", "o": "Rozwijają się miasta, m.in. Palenque i Tikal. Majowie prowadzą obserwacje astronomiczne, posługują się kalendarzami i pismem hieroglificznym." },
     { "rok": "1325", "t": "Tenochtitlán", "o": "Aztekowie budują stolicę na jeziorze Texcoco — miasto-kanały większe niż ówczesny Londyn. Orzeł na kaktusie z ich legendy jest dziś w godle Meksyku." },
-    { "rok": "1519–1521", "t": "Konkwista Cortésa", "o": "Hiszpanie oblegają i zdobywają Tenochtitlán. Na ruinach wyrasta Nowa Hiszpania — stolica imperium kolonialnego." },
+    { "rok": "1519–1521", "t": "Konkwista Cortésa", "o": "Wojska Cortésa i ich rdzenni sojusznicy zdobywają Tenochtitlán. Na jego miejscu rozwija się miasto Meksyk, późniejsza stolica wicekrólestwa Nowej Hiszpanii." },
     { "rok": "1810–1821", "t": "Niepodległość", "o": "Ksiądz Hidalgo wzywa do powstania słynnym Grito de Dolores. Meksyk staje się niepodległy; 16 września to święto narodowe." },
     { "rok": "1862", "t": "Puebla — Cinco de Mayo", "o": "Meksykanie pokonują armię francuską pod Pueblą. Rocznica 5 maja to dziś wielka fiesta — także w USA." },
     { "rok": "1910–1920", "t": "Rewolucja meksykańska", "o": "Zapata i Villa walczą o ziemię dla chłopów. Muraliści (Rivera, Orozco) malują historię kraju na ścianach pałaców." },
@@ -46,14 +46,14 @@
   ],
   "kuchnia": [
     { "icon": "i-taco", "plik": "foto/mx-tacos.jpg", "podpisFoto": "Fot. City Foodsters, CC BY 2.0, via Wikimedia Commons", "t": "Tacos al pastor", "d": "Kukurydziana tortilla, wieprzowina z rożna (pamiątka po libańskich imigrantach!), ananas, cebula, kolendra i salsa. Jedzone na stojąco, najlepiej po północy." },
-    { "icon": "i-garnek", "t": "Mole poblano", "d": "Gęsty sos z czekolady, chili i przypraw do indyka. Legenda: wymyśliły go zakonnice z Puebli. Ponad 20 składników, godziny gotowania." },
-    { "icon": "i-miska", "t": "Guacamole", "d": "Rozgniecione awokado z limonką, cebulą i kolendrą. Robi się je na świeżo, tuż przed podaniem — z chipsami totopos." },
-    { "icon": "i-kukurydza", "t": "Tamales", "d": "Kukurydziane ciasto z nadzieniem, gotowane w liściach kukurydzy lub bananowca. Świąteczny rytuał: cała rodzina lepi setki tamales (tamalada)." },
+    { "icon": "i-garnek", "plik": "foto/mx-mole.jpg", "podpisFoto": "Fot. Pabliotecario, CC BY-SA 4.0, via Wikimedia Commons", "t": "Mole", "d": "Gęsty sos na bazie chili — np. słynne mole poblano z dodatkiem czekolady, podawane do indyka. Legenda: wymyśliły go zakonnice z Puebli." },
+    { "icon": "i-miska", "plik": "foto/mx-guacamole.jpg", "podpisFoto": "Fot. Jazz Guy, CC BY 4.0, via Wikimedia Commons", "t": "Guacamole", "d": "Rozgniecione awokado z limonką, cebulą i kolendrą. Robi się je na świeżo, tuż przed podaniem — z chipsami totopos." },
+    { "icon": "i-kukurydza", "plik": "foto/mx-tamales.jpg", "podpisFoto": "Fot. El Nuevo Doge, CC0, via Wikimedia Commons", "t": "Tamales", "d": "Kukurydziane ciasto z nadzieniem, gotowane w liściach kukurydzy lub bananowca. Świąteczny rytuał: cała rodzina lepi setki tamales (tamalada)." },
     { "icon": "i-papryka", "t": "Pozole i elote", "d": "Sycąca zupa z hominy (wielkiej kukurydzy) oraz pieczona kukurydza elote z majonezem, serem cotija i chili — królowa ulicznych straganów." }
   ],
   "muzyka": [
     { "icon": "i-trabka", "plik": "foto/mx-mariachi.jpg", "podpisFoto": "Fot. José Luiz, CC BY-SA 4.0, via Wikimedia Commons", "t": "Mariachi", "d": "Skrzypce, trąbki, gitary i wielkie gitarony. Muzycy w haftowanych strojach charro śpiewają o miłości i ojczyźnie. Klasyki: La Bamba, Cielito Lindo, El Son de la Negra." },
-    { "icon": "i-marakasy", "t": "Son jarocho i marakasy", "d": "Skoczna muzyka z Veracruz z małą harfą jaraną. Tancerze wystukują rytm na drewnianej platformie (tarima)." },
+    { "icon": "i-gitara", "t": "Son jarocho", "d": "Tradycja muzyczna z Veracruz. Jarana jarocha to niewielki strunowy instrument podobny do gitary, a nie harfa. Tańczący wystukują rytm na drewnianej platformie zwanej tarima. Z tej tradycji pochodzi La Bamba." },
     { "icon": "i-czaszka", "t": "Calaveras literackie", "d": "Żartobliwe wierszyki o śmierci na Dzień Zmarłych — nawet politycy dostają swoją „kalawerę”. Śmiech oswaja przemijanie." },
     { "icon": "i-gitara", "t": "Banda i norteño", "d": "Dęte orkiestry z Sinaloa i akordeonowy norteño z pogranicza USA. Podstawa każdej wiejskiej fiesty i quinceañery — fiesty z okazji 15. urodzin." }
   ],
@@ -71,18 +71,18 @@
       "Seseo: litery c (przed e, i) i z wymawia się jak zwykłe s — gracias brzmi grasjas (nie graθjas jak w Hiszpanii).",
       "Ustedes zamiast vosotros: do grupy mówi się ustedes z formą jak dla państwa — ¿ustedes quieren?",
       "¿Qué onda? i órale: ¿qué onda? (co słychać?), órale (no dawaj! / serio?), padre (fajny), güey (kumpel, potocznie).",
-      "Słowa z nahuatl: chocolate (xocolatl), tomate (tomatl), aguacate (ahuacatl), coyote, chile. Meksyk podarował je całemu światu."
+      "Słowa pochodzące z nahuatl to m.in. tomate (pomidor), aguacate (awokado), coyote (kojot) i chile (papryczka). Hiszpański i rdzenne języki Meksyku mają status języków narodowych."
     ]
   },
   "zwroty": [
     { "es": "¿Qué onda?", "pl": "Co słychać? (luzacko)", "fon": "ke onda" },
     { "es": "Buenos días", "pl": "Dzień dobry (rano)", "fon": "buenos dias" },
-    { "es": "Muchas gracias", "pl": "Bardzo dziękuję", "fon": "mucias grasjas" },
+    { "es": "Muchas gracias", "pl": "Bardzo dziękuję", "fon": "muczas grasjas" },
     { "es": "Por favor", "pl": "Proszę", "fon": "por fawor" },
     { "es": "Con permiso", "pl": "Przepraszam (przepuszczając)", "fon": "kon permiso" },
     { "es": "¿Dónde está el Zócalo?", "pl": "Gdzie jest główny plac?", "fon": "donde esta el sokalo" },
     { "es": "Un taco, por favor", "pl": "Jedno taco, proszę", "fon": "un tako, por fawor" },
-    { "es": "¿Pica mucho?", "pl": "Czy to bardzo ostre?", "fon": "pika mucio" },
+    { "es": "¿Pica mucho?", "pl": "Czy to bardzo ostre?", "fon": "pika muczo" },
     { "es": "¡Órale!", "pl": "No dawaj! / Serio?", "fon": "orale" },
     { "es": "¡Viva México!", "pl": "Niech żyje Meksyk!", "fon": "biwa mechiko" },
     { "es": "Hasta luego", "pl": "Do zobaczenia", "fon": "asta luego" },
@@ -98,7 +98,7 @@
     { "p": "Piñata to…", "o": ["figura z niespodziankami", "rodzaj tacos", "kapelusz", "instrument"], "c": 0, "w": "Gwiaździstą piñatę rozbija się w Las Posadas — sypią się owoce i słodycze." },
     { "p": "Cinco de Mayo upamiętnia…", "o": ["zwycięstwo pod Pueblą (1862)", "niepodległość (1810)", "rewolucję (1910)", "konstytucję (1917)"], "c": 0, "w": "Meksykanie pokonali wtedy armię francuską — nie mylić z 16 września." },
     { "p": "Aksolotl to…", "o": ["płaz z Xochimilco", "ptak z Jukatanu", "owoc kaktusa", "wulkan"], "c": 0, "w": "Płaz, który się nie przeobraża i potrafi odbudować nawet serce." },
-    { "p": "Słowo „czekolada” pochodzi z języka…", "o": ["nahuatl", "kastylijskiego", "maya", "portugalskiego"], "c": 0, "w": "Xocolatl pili Majowie i Aztekowie; podobnie tomate i aguacate." },
+    { "p": "Z czego przygotowuje się guacamole?", "o": ["z awokado", "z ziemniaków", "z ryżu", "z kakao"], "c": 0, "w": "Podstawą guacamole jest awokado. Popularne dodatki to limonka, cebula, chili i kolendra." },
     { "p": "Guelaguetza odbywa się w…", "o": ["Oaxaca", "Puebli", "Cancún", "Tijuanie"], "c": 0, "w": "Lipcowy festiwal rdzennych ludów stanu Oaxaca — taniec i dary dla widowni." },
     { "p": "„¿Qué onda?” znaczy…", "o": ["co słychać?", "ile kosztuje?", "gdzie jest?", "smacznego"], "c": 0, "w": "Luzackie powitanie młodzieży — odpowiedz: ¡órale, todo bien!" }
   ]

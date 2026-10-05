@@ -1,48 +1,58 @@
-import { Chip, Ik, NaglowekSekcji, Przycisk, asset, url } from '../lib/ui.jsx';
+import { Ik, NaglowekSekcji, Przycisk, Wzor, asset, url } from '../lib/ui.jsx';
 import { Quiz } from '../components/Gry.jsx';
 import { mow } from '../lib/hooks.js';
 import gry from '../data/gry.json';
 import dodatki from '../data/dodatki.json';
 
+const FAKTY = [
+  ['Skala globalna', '600 mln', 'Użytkowników języka hiszpańskiego na całym świecie.', 'bg-primary'],
+  ['Zasięg', '21', 'Krajów i terytoriów, gdzie hiszpański jest językiem urzędowym.', 'bg-primarydeep'],
+  ['Podróż', '2', 'Kontynenty tej strony: Europa i Ameryka Północna.', 'bg-secondary'],
+  ['Wspólny język', '1', 'Język hiszpański w dwóch odmianach: z Hiszpanii i z Meksyku.', 'bg-tertiary'],
+];
+
 function Porownanie() {
   const karty = [
     {
-      kraj: 'es', flaga: 'Królestwo Hiszpanii', pod: 'Europa Południowa', foto: 'foto/es-segovia.jpg',
-      podpis: 'Fot. Diego Delso, CC BY-SA 4.0, via Wikimedia Commons',
+      pasek: 'bg-primary', flaga: 'Królestwo Hiszpanii', pod: 'Europa Południowa • Półwysep Iberyjski',
+      foto: 'foto/es-segovia.jpg', podpis: 'Fot. Diego Delso, CC BY-SA 4.0, via Wikimedia Commons',
       wiersze: [
         ['Kraj i stolica', 'Hiszpania · ok. 48 mln; stolica: Madryt'],
         ['Sztuka i ekspresja', 'Flamenco, cante jondo, architektura Gaudiego'],
-        ['Wielkie święto narodowe', 'Fiesta de San Fermín (Pampeluna), La Tomatina'],
-        ['Fundament kulinarny', 'Paella walencjańska, jamón ibérico, oliwki'],
+        ['Święta i festiwale', 'San Fermín w Pampelunie, La Tomatina w Buñol'],
+        ['Co zjeść?', 'Paella walencjańska, jamón ibérico, oliwki'],
       ],
     },
     {
-      kraj: 'mx', flaga: 'Stany Zjednoczone Meksyku', pod: 'Ameryka Północna', foto: 'foto/mx-chichen.jpg',
-      podpis: 'Fot. Daniel Schwen, CC BY-SA 4.0, via Wikimedia Commons',
+      pasek: 'bg-secondary', flaga: 'Stany Zjednoczone Meksyku', pod: 'Ameryka Północna',
+      foto: 'foto/mx-chichen.jpg', podpis: 'Fot. Daniel Schwen, CC BY-SA 4.0, via Wikimedia Commons',
       wiersze: [
         ['Kraj i stolica', 'Meksyk · ok. 128 mln; stolica: Ciudad de México'],
         ['Sztuka i ekspresja', 'Mariachi, murale, ceramika Talavera'],
-        ['Wielkie święto narodowe', 'Día de Muertos (UNESCO), Grito de Dolores'],
-        ['Fundament kulinarny', 'Mole poblano, kukurydza, papryczki'],
+        ['Święta i tradycje', 'Día de Muertos, obchody niepodległości we wrześniu'],
+        ['Co zjeść?', 'Mole poblano, tacos, kukurydza i papryczki chili'],
       ],
     },
   ];
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="grid items-stretch gap-space-lg lg:grid-cols-2">
       {karty.map((k) => (
-        <article key={k.kraj} className={'rounded-[14px] border border-linesoft bg-card p-6 shadow-sm md:p-8 ' + (k.kraj === 'es' ? 'border-t-4 border-t-primary' : 'border-t-4 border-t-secondary')}>
-          <Chip kraj={k.kraj}>{k.pod}</Chip>
-          <h3 className="mt-2 font-display text-h2 font-semibold">{k.flaga}</h3>
-          <img src={asset(k.foto)} alt={k.flaga} loading="lazy" className="mt-3 aspect-[16/9] w-full rounded-[10px] border border-line object-cover" />
-          <p className="mt-1 border-t border-linesoft pt-1 text-sm text-muted">{k.podpis}</p>
-          <dl className="mt-3 space-y-2">
-            {k.wiersze.map(([dt, dd]) => (
-              <div key={dt} className="grid grid-cols-[110px_1fr] gap-2 border-b border-linesoft/60 pb-2 text-sm sm:grid-cols-[140px_1fr] md:text-base">
-                <dt className="font-bold uppercase tracking-wide text-muted text-xs self-center">{dt}</dt>
-                <dd className="m-0">{dd}</dd>
-              </div>
-            ))}
-          </dl>
+        <article key={k.flaga} className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm">
+          <div aria-hidden="true" className={'h-2 w-full ' + k.pasek} />
+          <div className="flex grow flex-col p-space-lg md:p-space-xl">
+            <span className="block text-label-sm font-bold uppercase tracking-[0.06em] text-primary">{k.pod}</span>
+            <h3 className="mt-1 font-display text-headline-lg font-semibold">{k.flaga}</h3>
+            <img src={asset(k.foto)} alt={k.flaga} loading="lazy" className="mt-space-md aspect-[16/9] w-full rounded-xl border border-line object-cover" />
+            <p className="mt-1 border-t border-linesoft pt-1 text-sm text-muted">{k.podpis}</p>
+            <dl className="mt-space-md space-y-2">
+              {k.wiersze.map(([dt, dd]) => (
+                <div key={dt} className="grid grid-cols-[110px_1fr] gap-2 border-b border-linesoft/60 pb-2 text-body-sm sm:grid-cols-[140px_1fr] md:text-body-md">
+                  <dt className="self-center text-xs font-bold uppercase tracking-wide text-muted">{dt}</dt>
+                  <dd className="m-0">{dd}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         </article>
       ))}
     </div>
@@ -80,99 +90,88 @@ function Glosariusz({ limit }) {
 
 export { Glosariusz };
 
-function Ornament() {
-  const kol = ['#9e1b1b', '#c28704', '#206b43', '#003d63'];
-  return (
-    <div aria-hidden="true" className="flex justify-center py-1">
-      <svg width="220" height="18" viewBox="0 0 220 18">
-        {Array.from({ length: 11 }, (_, i) => (
-          <polygon key={i} points={`${i * 20},2 ${i * 20 + 20},2 ${i * 20 + 10},16`} fill={kol[i % kol.length]} opacity="0.75" />
-        ))}
-      </svg>
-    </div>
-  );
-}
-
 export default function StronaStart() {
   return (
-    <div className="mx-auto max-w-[1320px] px-5">
-      <section className="relative overflow-hidden border-b-2 border-ink" aria-labelledby="tytul">
-        <div className="absolute inset-0" aria-hidden="true">
-          <img src={asset('foto/mx-teotihuacan.jpg')} alt="" fetchPriority="high" className="h-full w-full object-cover" />
-          <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, rgba(20,14,8,0.78) 0%, rgba(20,14,8,0.62) 55%, #fff8f6 100%)' }} />
-        </div>
-        <div className="relative px-5 pb-8 pt-14 text-center text-white">
-          <p><span className="inline-block rounded-full border-2 border-gold bg-black/45 px-4 py-1 text-xs font-bold uppercase tracking-[0.14em] text-gold">Materiał na 1 lekcję · Dzień Języków Obcych</span></p>
-          <h1 id="tytul" className="mx-auto mt-3 max-w-4xl font-display font-bold" style={{ fontSize: 'clamp(2.4rem, 6vw, 3.5rem)', lineHeight: 1.15 }}>Dwa Kontynenty, <em className="text-gold">Jeden Język</em></h1>
-          <p className="mx-auto mt-3 max-w-2xl text-lg leading-relaxed text-[#f3e9d2]">Wszystko na jedną szybką lekcję: dwa pawilony (Hiszpania i Meksyk) plus gry i zabawy z głośnikiem. Otwórz, czytaj, słuchaj i graj — po polsku, od razu.</p>
-          <ul className="mx-auto mt-6 grid max-w-4xl grid-cols-2 gap-3 text-left md:grid-cols-4" aria-label="Liczby wystawy">
-            {[['600 mln', 'mówi po hiszpańsku', '#9e1b1b'], ['21', 'krajów i terytoriów', '#206b43'], ['2', 'kontynenty', '#003d63'], ['1', 'wspólny język', '#c28704']].map(([w, t, barwa]) => (
-              <li key={t} className="rounded-xl border border-linesoft border-l-4 bg-white p-4" style={{ borderLeftColor: barwa }}>
-                <b className="font-display text-2xl font-bold text-ink">{w}</b><br /><span className="text-sm text-muted">{t}</span>
-              </li>
+    <div>
+      <section aria-labelledby="tytul" className="relative w-full overflow-hidden bg-surface pb-space-xxl pt-space-xl">
+        <Wzor />
+        <div className="relative mx-auto max-w-[1320px] px-5 sm:px-10 lg:px-16">
+          <div className="mb-space-md flex items-center gap-space-sm">
+            <span className="inline-flex items-center gap-2 rounded bg-sand px-3 py-1 text-label-sm font-bold uppercase tracking-[0.06em] text-primary">
+              <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-primary" />
+              Dzień Języków Obcych · Hiszpania i Meksyk
+            </span>
+          </div>
+          <div className="mb-space-xl grid items-end gap-space-lg lg:grid-cols-12">
+            <div className="lg:col-span-8">
+              <h1 id="tytul" className="mb-space-sm font-display text-display-lg font-bold tracking-tight">
+                Dwa Kontynenty, <em className="font-normal italic text-primary">Jeden Język</em>
+              </h1>
+              <p className="max-w-2xl text-body-lg leading-relaxed text-muted">
+                Flamenco czy mariachi? Paella czy tacos? Poznaj Hiszpanię i Meksyk: kulturę, słowa z wymową i quizy. Wszystko po polsku.
+              </p>
+            </div>
+            <div className="lg:col-span-4">
+              <div className="rounded-xl bg-white p-space-md shadow-sm">
+                <span className="mb-1 block text-label-sm font-bold uppercase text-muted">Jak korzystać</span>
+                <ol className="list-none space-y-2 p-0 text-body-sm text-muted">
+                  <li><b className="text-ink">1. Wybierz pawilon</b> — Hiszpania albo Meksyk.</li>
+                  <li><b className="text-ink">2. Posłuchaj</b> — słowa i zwroty z lektorem.</li>
+                  <li><b className="text-ink">3. Zagraj</b> — dopasuj, zgadnij, sprawdź wynik.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div className="mb-space-xl grid gap-space-md sm:grid-cols-2 lg:grid-cols-4">
+            {FAKTY.map(([etykieta, liczba, opis, pasek]) => (
+              <article key={etykieta} className="relative overflow-hidden rounded-xl bg-white p-space-lg shadow-sm">
+                <div aria-hidden="true" className={'absolute left-0 top-0 h-full w-1.5 ' + pasek} />
+                <span className="mb-space-xs block text-label-sm font-bold uppercase tracking-[0.06em] text-primary">{etykieta}</span>
+                <span className="mb-1 block font-display text-headline-xl font-bold">{liczba}</span>
+                <p className="text-body-sm leading-snug text-muted">{opis}</p>
+              </article>
             ))}
-          </ul>
-          <div className="mt-6 flex flex-wrap justify-center gap-2.5">
-            <Przycisk wariant="es" do={url('/hiszpania/')}>Odkryj Pawilon Hiszpanii</Przycisk>
-            <Przycisk wariant="mx" do={url('/meksyk/')}>Odkryj Pawilon Meksyku</Przycisk>
-            <Przycisk wariant="duch" do={url('/gry/')}>Przejdź do gier i zabaw</Przycisk>
+          </div>
+          <div className="flex flex-wrap items-center gap-space-md">
+            <Przycisk wariant="es" do={url('/hiszpania/')} ikona="i-flag-es">Pawilon Hiszpanii</Przycisk>
+            <Przycisk wariant="mx" do={url('/meksyk/')} ikona="i-flag-mx">Pawilon Meksyku</Przycisk>
+            <Przycisk do={url('/gry/')} ikona="i-quiz">Gry i zabawy</Przycisk>
           </div>
         </div>
       </section>
 
-      <section className="py-16" aria-labelledby="h-plan">
-        <Ornament />
-        <NaglowekSekcji nr="Lekcja" tytul="Scenariusz lekcji w 45 minut" slowo="RUTA"
-          lead="Gotowy plan na Dzień Języków Obcych: od rozgrzewki po finał." />
-        <ol className="grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-4">
-          {[
-            ['5 minut', 'Rozgrzewka: quiz „Zgadnij, który to kraj” na dole tej strony.'],
-            ['15 minut', 'Jeden pawilon: Hiszpania albo Meksyk — czytaj i słuchaj zwrotów.'],
-            ['15 minut', 'Gry i zabawy: fiszki, dopasowanie i zagadki — solo lub w parach.'],
-            ['10 minut', 'Finał: quiz pawilonu na czas i rekord sali.'],
-          ].map(([czas, opis], i) => (
-            <li key={czas} className="rounded-[14px] border border-linesoft bg-card p-5 shadow-sm">
-              <p className="m-0 font-display text-2xl font-bold text-primary">{czas}</p>
-              <p className="m-0 mt-1 text-muted">{opis}</p>
-            </li>
-          ))}
-        </ol>
+      <section aria-labelledby="h-por" className="w-full bg-sand py-space-xxl">
+        <div className="mx-auto max-w-[1320px] px-5 sm:px-10 lg:px-16">
+          <NaglowekSekcji nr="Zestawienie" tytul="Hiszpania i Meksyk — co je łączy?" lead="Ten sam język, inne smaki, muzyka i zwyczaje. Od czego zaczniesz?" />
+          <Porownanie />
+        </div>
       </section>
 
-      <section className="py-16" aria-labelledby="h-por">
-        <NaglowekSekcji nr="Zestawienie" tytul="Hiszpania vs Meksyk — podobieństwa i różnice" slowo="DIÁLOGO"
-          lead="Dwa filary hiszpańskojęzycznego świata: demografia, dialektologia, święta i kuchnia." />
-        <Porownanie />
-      </section>
-
-      <section className="py-16" aria-labelledby="h-glo">
-        <NaglowekSekcji nr="Słowniczek" tytul="Miniaturowy słowniczek porównawczy" slowo="PALABRAS"
-          lead="Ten sam język, inne słowa. Posłuchaj różnicy między wymową madrycką a meksykańską." />
+      <section aria-labelledby="h-glo" className="mx-auto max-w-[1320px] px-5 py-space-xxl sm:px-10 lg:px-16">
+        <NaglowekSekcji nr="Słowniczek" tytul="To samo, ale inaczej" lead="Ten sam język, inne słowa. Posłuchaj różnicy między wymową madrycką a meksykańską." />
         <Glosariusz limit={4} />
-        <p className="mt-3"><Przycisk do={url('/gry/')}>Cały słowniczek w grach i zabawach</Przycisk></p>
+        <p className="mt-space-md"><Przycisk do={url('/gry/')}>Cały słowniczek w grach i zabawach</Przycisk></p>
       </section>
 
-      <section className="py-16" aria-labelledby="h-mod">
-        <NaglowekSekcji nr="Przewodnik" tytul="Przewodnik po modułach platformy" slowo="RUTA" />
+      <section aria-labelledby="h-mod" className="mx-auto max-w-[1320px] px-5 py-space-xxl sm:px-10 lg:px-16">
+        <NaglowekSekcji nr="Odkrywaj" tytul="Wybierz swój kierunek" />
         <div className="grid gap-4 md:grid-cols-3">
           {[
-            ['Pawilon Hiszpański', 'Historia, sztuka, fonetyka i kuchnia Półwyspu Iberyjskiego.', url('/hiszpania/'), 'es'],
-            ['Pawilon Meksykański', 'Kultura, tradycja i język Ameryki Północnej.', url('/meksyk/'), 'mx'],
-            ['Wielkie gry i zabawy', 'Quizy, memory, zagadki i trabalenguas.', url('/gry/'), null],
-          ].map(([t, d, href, kraj]) => (
-            <article key={t} className="rounded-[14px] border border-linesoft bg-card p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              <h3 className="font-display text-xl font-semibold">{t}</h3>
-              <p className="text-muted">{d}</p>
-              <p><a href={href} className="font-bold text-tertiary underline">Rozpocznij zwiedzanie</a></p>
+            ['Pawilon Hiszpański', 'Historia, sztuka, kuchnia i zwroty z Półwyspu Iberyjskiego.', url('/hiszpania/')],
+            ['Pawilon Meksykański', 'Kultura, tradycja i język Ameryki Północnej.', url('/meksyk/')],
+            ['Gry i zabawy', 'Posłuchaj słów, dopasuj ich znaczenia i rozwiąż quiz.', url('/gry/')],
+          ].map(([t, d, href]) => (
+            <article key={t} className="rounded-2xl bg-white p-space-lg shadow-sm transition hover:-translate-y-1">
+              <h3 className="font-display text-headline-sm font-semibold">{t}</h3>
+              <p className="text-body-md text-muted">{d}</p>
+              <p><a href={href} className="font-bold text-tertiary underline">Otwórz</a></p>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="py-16" aria-labelledby="h-q">
-        <Ornament />
-        <NaglowekSekcji nr="Quiz wstępny" tytul="Zgadnij, który to kraj" slowo="JUEGO"
-          lead="Rozgrzewka przed pawilonami: 12 pytań o to, co hiszpańskie, a co meksykańskie." />
+      <section aria-labelledby="h-q" className="mx-auto max-w-[1320px] px-5 py-space-xxl sm:px-10 lg:px-16">
+        <NaglowekSekcji nr="Quiz" tytul="Zgadnij, który to kraj" lead="Rozgrzewka: 12 pytań o to, co hiszpańskie, a co meksykańskie." />
         <Quiz pytania={gry.mieszany} klucz="mieszany" czas={20} />
       </section>
     </div>

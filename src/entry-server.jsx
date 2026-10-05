@@ -9,10 +9,10 @@ export const TRASY = [
 ];
 
 const OPISY = {
-  '/': 'Kuratorska platforma edukacyjna: Hiszpania i Meksyk. Pawilony wiedzy, zwroty z lektorem, arena gier i quizów. Po polsku.',
+  '/': 'Hiszpania i Meksyk na Dzień Języków Obcych. Poznaj kulturę, jedzenie, muzykę i przydatne zwroty. Posłuchaj wymowy i zagraj w quiz.',
   '/hiszpania': 'Pawilon Hiszpanii: geografia, historia, święta, kuchnia, muzyka, zabytki, język i zwroty z lektorem. Quiz z 12 pytaniami.',
   '/meksyk': 'Pawilon Meksyku: geografia, historia, święta, kuchnia, muzyka, zabytki, język i zwroty z lektorem. Quiz z 12 pytaniami.',
-  '/gry': 'Gry i zabawy: pojedynek Hiszpania kontra Meksyk, zagadki językowe, memory, kalambury drużynowe, trabalenguas.',
+  '/gry': 'Gry i zabawy: słowa z wymową, dopasowanie znaczeń, quizy i krótkie rozmowy po hiszpańsku z tłumaczeniem.',
 };
 
 export function renderuj(sciezka) {

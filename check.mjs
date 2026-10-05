@@ -88,5 +88,25 @@ for (const f of pliki('src/data', '.json')) {
   console.log('OK: ' + f);
 }
 
+// Ikony: każde id użyte w danych i JSX musi istnieć w spricie.
+const sprite = readFileSync('public/icons.svg', 'utf8');
+const symbole = new Set([...sprite.matchAll(/<symbol id="([^"]+)"/g)].map((m) => m[1]));
+for (const f of pliki('src/data', '.json')) {
+  const raw = readFileSync(f, 'utf8');
+  for (const m of raw.matchAll(/"icon"\s*:\s*"([^"]+)"/g)) {
+    if (!symbole.has(m[1])) fail(f + ': brak ikony w spricie: ' + m[1]);
+  }
+}
+for (const p of [...pliki('src', '.jsx'), ...pliki('src', '.js')]) {
+  const raw = readFileSync(p, 'utf8');
+  for (const m of raw.matchAll(/id="([^"]+)"/g)) {
+    if (m[1].startsWith('i-') && !symbole.has(m[1])) fail(p + ': brak ikony w spricie: ' + m[1]);
+  }
+  for (const m of raw.matchAll(/#(i-[a-z-]+)/g)) {
+    if (!symbole.has(m[1])) fail(p + ': brak ikony w spricie: ' + m[1]);
+  }
+}
+console.log('OK: ikony (' + symbole.size + ' w spricie)');
+
 if (errors > 0) { console.error('\nCHECK: ' + errors + ' bledow'); process.exit(1); }
 console.log('\nCHECK: wszystko w porzadku');

@@ -1,25 +1,27 @@
-import { Chip, Ik, NaglowekSekcji, Przycisk, asset, url } from '../lib/ui.jsx';
+import { Chip, Ik, NaglowekSekcji, Przycisk, Wzor, asset, url } from '../lib/ui.jsx';
 import { Foto, Quiz } from '../components/Gry.jsx';
-import { mow } from '../lib/hooks.js';
+import { Audio } from '../components/Mowa.jsx';
 import hiszpania from '../data/hiszpania.json';
 import meksyk from '../data/meksyk.json';
 
 const DANE = { es: hiszpania, mx: meksyk };
-const HERO_FOTO = { es: 'foto/es-mezquita.jpg', mx: 'foto/mx-chichen.jpg' };
 const FLAGA = { es: 'i-flag-es', mx: 'i-flag-mx' };
 const GLOS = { es: 'es-ES', mx: 'es-MX' };
 const SLOWA = { geo: 'MAPA', hist: 'TIEMPO', sw: 'FIESTA', ku: 'SABOR', mu: 'RITMO', za: 'ARTE', je: 'PALABRA', zw: 'HOLA' };
 
-function Karta({ k, akcja }) {
+function Karta({ k, akcja, pasek }) {
   return (
-    <article className="rounded-[14px] border border-linesoft bg-card p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg md:p-8">
+    <article className="overflow-hidden rounded-2xl bg-white shadow-sm transition hover:-translate-y-1">
+      <div aria-hidden="true" className={'h-2 w-full ' + pasek} />
+      <div className="p-space-lg md:p-space-xl">
       <div className="flex items-start gap-3">
-        <span aria-hidden="true" className={k.kraj || ''}><Ik id={k.icon} className="h-10 w-10 text-primary" /></span>
-        <h3 className="m-0 font-display text-xl font-semibold">{k.t}</h3>
+        <span aria-hidden="true"><Ik id={k.icon} className="h-10 w-10 text-primary" /></span>
+        <h3 className="m-0 font-display text-headline-sm font-semibold">{k.t}</h3>
       </div>
       {k.plik && <div className="mt-3"><Foto plik={k.plik} tytul={k.t} podpis={k.podpisFoto} /></div>}
-      <p className="mt-2 text-muted">{k.d}</p>
+      <p className="mt-2 text-body-md text-muted">{k.d}</p>
       {akcja}
+      </div>
     </article>
   );
 }
@@ -33,21 +35,19 @@ export default function Pawilon({ id }) {
     ['#muzyka', 'Muzyka i taniec'], ['#zabytki', 'Zabytki i symbole'],
     ['#jezyk', 'Język w pigułce'], ['#zwroty', 'Zwroty z głośnikiem'], ['#quiz', 'Quiz: ' + d.nazwa],
   ];
+  const PASEK = id === 'es' ? 'bg-primary' : 'bg-secondary';
   return (
     <div className="mx-auto max-w-[1320px] px-5">
       <section className="relative overflow-hidden border-b-2 border-ink" aria-labelledby="tytul">
-        <div className="absolute inset-0" aria-hidden="true">
-          <img src={asset(HERO_FOTO[id])} alt="" fetchPriority="high" className="h-full w-full object-cover" />
-          <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, rgba(20,14,8,0.78) 0%, rgba(20,14,8,0.62) 55%, #fff8f6 100%)' }} />
-        </div>
-        <div className="relative px-5 pb-8 pt-14 text-center text-white">
-          <p><svg className="mx-auto h-auto w-[132px] rounded-[10px] border-2 border-white/70 shadow-2xl" role="img" aria-label={'Flaga: ' + d.nazwa}><use href={asset('icons.svg') + '#' + FLAGA[id]} /></svg></p>
-          <p className="mt-3"><span className="inline-block rounded-full border-2 border-gold bg-black/45 px-4 py-1 text-xs font-bold uppercase tracking-[0.14em] text-gold">{d.nazwa} · <span lang="es">{d.powitanie}</span></span></p>
-          <h1 id="tytul" className="mx-auto mt-3 max-w-4xl font-display font-bold" style={{ fontSize: 'clamp(2.2rem, 5.5vw, 3.2rem)', lineHeight: 1.15 }}>{d.hero.tytul}</h1>
-          <p className="mx-auto mt-3 max-w-2xl text-lg text-[#f3e9d2]">{d.hero.lead}</p>
-          <div className="mt-5 flex flex-wrap justify-center gap-2.5">
+        <Wzor />
+        <div className="relative px-5 pb-space-xl pt-space-xl text-center">
+          <p><svg viewBox="0 0 24 16" className="mx-auto h-[80px] w-[120px] rounded-md border border-line shadow-sm" role="img" aria-label={'Flaga: ' + d.nazwa}><use href={asset('icons.svg') + '#' + FLAGA[id]} /></svg></p>
+          <p className="mt-space-sm"><span className="inline-flex items-center gap-2 rounded bg-sand px-3 py-1 text-label-sm font-bold uppercase tracking-[0.06em] text-primary"><span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-primary" />{d.nazwa} · <span lang="es">{d.powitanie}</span></span></p>
+          <h1 id="tytul" className="mx-auto mt-space-sm max-w-4xl font-display font-bold" style={{ fontSize: 'clamp(2.2rem, 5.5vw, 3.2rem)', lineHeight: 1.15 }}>{d.hero.tytul}</h1>
+          <p className="mx-auto mt-space-sm max-w-2xl text-body-lg text-muted">{d.hero.lead}</p>
+          <div className="mt-space-md flex flex-wrap justify-center gap-space-sm">
             <Przycisk wariant={id === 'es' ? 'es' : 'mx'} do="#quiz">Sprawdź się w quizie</Przycisk>
-            <Przycisk wariant="duch" do="#zwroty">Posłuchaj zwrotów</Przycisk>
+            <Przycisk do="#zwroty">Posłuchaj zwrotów</Przycisk>
           </div>
         </div>
       </section>
@@ -68,7 +68,8 @@ export default function Pawilon({ id }) {
 
       <section id="geografia" className="scroll-mt-24 py-8">
         <NaglowekSekcji nr="01" tytul={d.geografia.tytul} slowo={SLOWA.geo} lead={d.geografia.lead} />
-        <div className="rounded-[14px] border border-linesoft bg-white px-6 py-2 shadow-sm">
+        <Audio text={d.geografia.akapity.join(' ')} lang="pl-PL" label="Posłuchaj o geografii" />
+        <div className="reading-copy mt-4 rounded-[14px] border border-linesoft bg-white p-6 shadow-sm">
           {d.geografia.akapity.map((a, i) => <p key={i} className="max-w-[68ch]">{a}</p>)}
         </div>
         <ul className="mt-3 grid list-none gap-2.5 p-0 sm:grid-cols-2 lg:grid-cols-4">
@@ -95,18 +96,15 @@ export default function Pawilon({ id }) {
 
       <section id="swieta" className="scroll-mt-24 py-8">
         <NaglowekSekcji nr="03" tytul="Święta i zwyczaje" slowo={SLOWA.sw} lead="Pięć świąt, które trzeba znać." />
-        <div className="grid gap-3.5 md:grid-cols-2">{d.swieta.map((s) => <Karta key={s.t} k={s} />)}</div>
+        <div className="grid gap-3.5 md:grid-cols-2">{d.swieta.map((s) => <Karta key={s.t} k={s} pasek={PASEK} />)}</div>
       </section>
 
       <section id="kuchnia" className="scroll-mt-24 py-8">
         <NaglowekSekcji nr="04" tytul="Kuchnia" slowo={SLOWA.ku} lead={'Pięć smaków ' + krajDop + ' — nazwę każdej potrawy odtworzysz z lektorem.'} />
-        <div className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid items-start gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
           {d.kuchnia.map((k) => (
-            <Karta key={k.t} k={k} akcja={(
-              <button type="button" onClick={() => mow(k.t, GLOS[id])} aria-label={'Powiedz nazwę potrawy: ' + k.t}
-                className="mt-1 inline-flex min-h-[40px] items-center gap-1.5 rounded-full border-2 border-ink bg-card px-3 text-sm font-bold">
-                <Ik id="i-glosnik" className="h-4 w-4" /> Powiedz nazwę
-              </button>
+            <Karta key={k.t} k={k} pasek={PASEK} akcja={(
+              <Audio text={k.es || k.t} lang={GLOS[id]} label="Wymów nazwę" />
             )} />
           ))}
         </div>
@@ -114,20 +112,24 @@ export default function Pawilon({ id }) {
 
       <section id="muzyka" className="scroll-mt-24 py-8">
         <NaglowekSekcji nr="05" tytul="Muzyka i taniec" slowo={SLOWA.mu} lead="Czym żyje ulica i fiesta." />
-        <div className="grid gap-3.5 md:grid-cols-2">{d.muzyka.map((m) => <Karta key={m.t} k={m} />)}</div>
+        <div className="grid gap-3.5 md:grid-cols-2">{d.muzyka.map((m) => <Karta key={m.t} k={m} pasek={PASEK} />)}</div>
       </section>
 
       <section id="zabytki" className="scroll-mt-24 py-8">
-        <NaglowekSekcji nr="06" tytul="Zabytki i symbole" slowo={SLOWA.za} lead="Sześć miejsc do rozpoznania — przydadzą się w grach i zabawach." />
+        <NaglowekSekcji nr="06" tytul="Zabytki i symbole" slowo={SLOWA.za} lead="Miejsca, które warto poznać: architektura, historia i sztuka." />
         <div className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
           {d.zabytki.map((z) => (
-            <article key={z.t} className="rounded-[14px] border border-linesoft bg-card p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              <h3 className="mt-0 font-display text-xl font-semibold">{z.t}</h3>
+            <article key={z.t} className="overflow-hidden rounded-2xl bg-white shadow-sm transition hover:-translate-y-1">
+              <div aria-hidden="true" className={'h-2 w-full ' + PASEK} />
+              <div className="p-space-lg">
+              <h3 className="mt-0 font-display text-headline-sm font-semibold">{z.t}</h3>
               {z.plik
                 ? <div className="mt-2"><Foto plik={z.plik} tytul={z.t} podpis={z.podpisFoto} /></div>
                 : <span aria-hidden="true"><Ik id={z.icon} className="mt-2 h-10 w-10 text-primary" /></span>}
               <p className="mt-2 text-muted">{z.d}</p>
+              <Audio text={z.t + '. ' + z.d} lang="pl-PL" label="Przeczytaj opis" />
               <p><Chip kraj={id}>{z.foto}</Chip></p>
+              </div>
             </article>
           ))}
         </div>
@@ -135,7 +137,7 @@ export default function Pawilon({ id }) {
 
       <section id="jezyk" className="scroll-mt-24 py-8">
         <NaglowekSekcji nr="07" tytul="Język w pigułce" slowo={SLOWA.je} lead={d.jezyk.lead} />
-        <div className="rounded-[14px] border border-linesoft bg-white px-6 py-2 shadow-sm">
+        <div className="reading-copy rounded-[14px] border border-linesoft bg-white p-6 shadow-sm">
           <ul>{d.jezyk.punkty.map((p, i) => <li key={i} className="max-w-[68ch]">{p}</li>)}</ul>
         </div>
       </section>
@@ -145,15 +147,12 @@ export default function Pawilon({ id }) {
           lead={'Posłuchaj i powtórz. Głos: ' + (id === 'es' ? 'Hiszpania (es-ES)' : 'Meksyk (es-MX)') + '.'} />
         <div className="grid gap-2.5 md:grid-cols-2">
           {d.zwroty.map((z) => (
-            <div key={z.es} className="flex items-center justify-between gap-3 rounded-xl border border-line bg-card p-3 pl-4">
+            <div key={z.es} className="min-w-0 rounded-xl border border-linesoft bg-card p-5">
               <div>
                 <div lang="es" className="text-lg font-extrabold">{z.es}</div>
                 <div className="text-muted">{z.pl} · <span lang="es" className="italic">[{z.fon}]</span></div>
               </div>
-              <button type="button" onClick={() => mow(z.es, GLOS[id])} aria-label={'Odsłuchaj po hiszpańsku: ' + z.es}
-                className="inline-flex min-h-[40px] shrink-0 items-center gap-1.5 rounded-full border-2 border-ink bg-card px-3 text-sm font-bold">
-                <Ik id="i-glosnik" className="h-4 w-4" /> Odsłuchaj
-              </button>
+              <Audio text={z.es} lang={GLOS[id]} />
             </div>
           ))}
         </div>
