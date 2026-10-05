@@ -1,0 +1,105 @@
+{
+  "id": "es",
+  "nazwa": "Hiszpania",
+  "powitanie": "¡Hola! ¿Qué tal?",
+  "hero": {
+    "tytul": "Hiszpania — kraj flamenco, fiesty i sjesty",
+    "lead": "Od mauretańskich pałaców Andaluzji po gotyckie katedry północy. Poznaj kraj, w którym obiad jada się o piętnastej, a Nowy Rok wita dwunastoma winogronami.",
+    "statystyki": [
+      { "w": "48 mln", "t": "mieszkańców" },
+      { "w": "17", "t": "wspólnot autonomicznych" },
+      { "w": "50", "t": "obiektów UNESCO" },
+      { "w": "12", "t": "zwrotów z lektorem" }
+    ]
+  },
+  "geografia": {
+    "tytul": "Geografia w pigułce",
+    "lead": "Hiszpania zajmuje większość Półwyspu Iberyjskiego. To kraj kontrastów: zielona Galicja na północy i niemal afrykańskie upały Andaluzji na południu.",
+    "akapity": [
+      "Stolicą jest Madryt, położony na rozległym płaskowyżu Meseta, prawie w samym środku kraju. Największe rzeki to Ebro, Duero, Tag (Tajo) i Gwadalkiwir. Na południu wznoszą się góry Sierra Nevada z najwyższym szczytem kontynentalnej Hiszpanii — Mulhacén (3479 m).",
+      "Do Hiszpanii należą też wyspy: Baleary na Morzu Śródziemnym z imprezową Ibizą oraz Wyspy Kanaryjskie na Atlantyku z wulkanem Teide — najwyższym szczytem całej Hiszpanii (3718 m).",
+      "Klimat śródziemnomorski oznacza gorące, suche lata i łagodne zimy. Nic dziwnego, że narodziła się tu sjesta — popołudniowa przerwa w największy upał, zwykle między 14:00 a 17:00."
+    ],
+    "fakty": [
+      { "w": "505 tys. km²", "t": "powierzchnia — 2. kraj UE" },
+      { "w": "Madryt", "t": "stolica, 3,3 mln mieszkańców" },
+      { "w": "euro", "t": "waluta od 2002 roku" },
+      { "w": "4 języki", "t": "kastylijski, kataloński, galicyjski, baskijski" }
+    ]
+  },
+  "historia": [
+    { "rok": "ok. 200 p.n.e.", "t": "Hispania pod Rzymem", "o": "Rzymianie budują drogi, akwedukty (Segowia!) i miasta. Łacina staje się zalążkiem hiszpańskiego." },
+    { "rok": "711–1492", "t": "Al-Andalus", "o": "Maurowie tworzą kwitnącą cywilizację: Kordoba, Sewilla, Grenada. Powstaje Alhambra i Wielki Meczet w Kordobie." },
+    { "rok": "1492", "t": "Rekonkwista i Kolumb", "o": "Upadek Grenady kończy 781 lat walki. Kolumb dociera do Ameryki — zaczyna się epoka imperium." },
+    { "rok": "XVI–XVII w.", "t": "Złoty Wiek", "o": "Imperium, z którego „nie zachodzi słońce”. Cervantes pisze Don Kichota, Velázquez maluje, teatr Lope de Vegi bawi tłumy." },
+    { "rok": "1936–1939", "t": "Wojna domowa", "o": "Tragiczny konflikt, po którym władzę przejmuje gen. Franco. Guernica Picassa staje się symbolem cierpienia." },
+    { "rok": "1978", "t": "Konstytucja i demokracja", "o": "Hiszpania staje się monarchią parlamentarną. Wspólnoty autonomiczne zyskują własne rządy i języki w szkołach." },
+    { "rok": "1986", "t": "Wspólnota Europejska", "o": "Hiszpania wchodzi do EWG (dziś UE). Rozpoczyna się boom gospodarczy i turystyczny." },
+    { "rok": "1992", "t": "Rok Barcelony i Sewilli", "o": "Igrzyska olimpijskie w Barcelonie i Expo w Sewilli pokazują światu nową, otwartą Hiszpanię." }
+  ],
+  "swieta": [
+    { "icon": "i-pomidor", "t": "La Tomatina — Buñol, ostatnia środa sierpnia", "d": "Najsłynniejsza bitwa na pomidory świata. 150 ton pomidorów, godzina zabawy, potem mycie miasta wężami strażackimi. Zaczęło się od młodzieńczej bójki w 1945 roku." },
+    { "icon": "i-ogien", "t": "Las Fallas — Walencja, 15–19 marca", "d": "Tygodniowe święto ognia: gigantyczne, satyryczne kukły (fallas) parodiują polityków i celebrytów, a finałowej nocy wszystko płonie w wielkiej Cremà. Ocalałą kukłę wybiera głosowanie." },
+    { "icon": "i-byk", "t": "San Fermín — Pampeluna, 6–14 lipca", "d": "Słynna gonitwa byków ulicami miasta (encierro) o 8:00 rano, opisana przez Hemingwaya. Uczestnicy w bieli z czerwonymi chustami." },
+    { "icon": "i-kosciol", "t": "Semana Santa — Sewilla, Wielki Tydzień", "d": "Poruszające procesje z platformami (pasos) niosącymi figury Chrystusa i Matki Boskiej. Pokutnicy w spiczastych kapturach (capirotes), orkiestry i zapach kadzidła." },
+    { "icon": "i-winogrona", "t": "Sylwester — 12 winogron", "d": "Hiszpanie witają Nowy Rok, jedząc po jednym winogronie na każde z dwunastu uderzeń zegara na Puerta del Sol w Madrycie. Kto zdąży — ma szczęście na cały rok." }
+  ],
+  "kuchnia": [
+    { "icon": "i-patelnia", "plik": "foto/es-paella.jpg", "podpisFoto": "Fot. Jan Harenburg, CC BY-SA 4.0, via Wikimedia Commons", "t": "Paella walencjańska", "d": "Ryż z szafranem gotowany na szerokiej patelni. Oryginał: królik, kurczak, fasola. Jedzona w niedziele, wprost z patelni, z cytryną." },
+    { "icon": "i-miska", "t": "Tapas", "d": "Małe przekąski do wina: oliwki, ser manchego, szynka jamón, krewetki al ajillo. W León i Grenadzie tapas dostaniesz gratis do napoju!" },
+    { "icon": "i-patelnia", "t": "Tortilla española", "d": "Gruby omlet z ziemniaków i cebuli. Spór narodowy: z cebulą (con cebolla) czy bez (sin cebolla)?" },
+    { "icon": "i-czekolada", "t": "Churros z czekoladą", "d": "Smażone paluszki z ciasta parzonego, maczane w gęstej czekoladzie. Klasyczne śniadanie po nocnej fieście." },
+    { "icon": "i-kubek", "t": "Horchata i tinto de verano", "d": "Orzeźwiająca horchata z cibory (chufy) oraz letnie wino z lemoniadą — ulubione napoje upalnego południa." }
+  ],
+  "muzyka": [
+    { "icon": "i-wachlarz", "t": "Flamenco — dusza Andaluzji", "d": "Śpiew (cante), taniec (baile) i gitara (toque). Płaczliwy śpiew o miłości i stracie, tupot obcasów, okrzyki ¡olé! W 2010 roku flamenco wpisano na listę UNESCO." },
+    { "icon": "i-gitara", "t": "Gitara hiszpańska", "d": "Klasyczna gitara z nylonowymi strunami. Wirtuozi: Andrés Segovia, Paco de Lucía, który połączył flamenco z jazzem." },
+    { "icon": "i-marakasy", "t": "Kastaniety i cajón", "d": "Kastaniety (castañuelas) wybijają rytm w tańcu, a skrzyniowy bęben cajón — pierwotnie skrzynia na ryby — napędza rumby." },
+    { "icon": "i-druzyna", "t": "Paso doble i sardana", "d": "Paso doble rozbrzmiewa na arenach byków, a w Katalonii tańczy się spokojną sardanę w wielkim kole na placu." }
+  ],
+  "zabytki": [
+    { "icon": "i-kosciol", "plik": "foto/es-sagrada.jpg", "podpisFoto": "Fot. Matti Blume, CC BY-SA 4.0, via Wikimedia Commons", "t": "Sagrada Família, Barcelona", "d": "Bazylika Gaudiego budowana od 1882 roku — jak las z kamienia. Ukończenie planowane na lata 30. XXI wieku.", "foto": "Gaudí, secesja katalońska" },
+    { "icon": "i-meczet", "plik": "foto/es-alhambra.jpg", "podpisFoto": "Fot. Juan Laurent, domena publiczna, via Wikimedia Commons", "t": "Alhambra, Grenada", "d": "Czerwony pałac mauretańskich emirów z dziedzińcami Lwów i Mirtów. Perła sztuki islamu w Europie.", "foto": "sztuka nasrydzka, XIV w." },
+    { "icon": "i-meczet", "plik": "foto/es-mezquita.jpg", "podpisFoto": "Fot. Adrian Farwell, CC BY 3.0, via Wikimedia Commons", "t": "Mezquita, Kordoba", "d": "Las 856 kolumn z czerwono-białymi łukami. W środku dawnego meczetu stoi renesansowa katedra.", "foto": "meczet z 785 r., katedra z XVI w." },
+    { "icon": "i-jaszczurka", "plik": "foto/es-guell.jpg", "podpisFoto": "Fot. Danbu14, CC BY-SA 3.0, via Wikimedia Commons", "t": "Park Güell, Barcelona", "d": "Bajkowy park Gaudiego: mozaikowa jaszczurka, falujące ławki i piernikowe domki.", "foto": "Gaudí, trencadís — mozaika z potłuczonych płytek" },
+    { "icon": "i-luk", "plik": "foto/es-segovia.jpg", "podpisFoto": "Fot. Diego Delso, CC BY-SA 4.0, via Wikimedia Commons", "t": "Akwedukt, Segowia", "d": "Rzymski wodociąg z 167 granitowymi łukami, złożony bez zaprawy. Ma prawie 2000 lat i wciąż stoi.", "foto": "Rzym, ok. 50 r. n.e." },
+    { "icon": "i-obraz", "plik": "foto/es-prado.jpg", "podpisFoto": "Fot. Rene Boulay, CC BY-SA 3.0, via Wikimedia Commons", "t": "Muzeum Prado, Madryt", "d": "Velázquez, Goya, El Greco — jedna z najważniejszych galerii świata. Wejście gratis w ostatnich godzinach dnia.", "foto": "Las Meninas, Maja naga i ubrana" }
+  ],
+  "jezyk": {
+    "lead": "Hiszpański z Hiszpanii brzmi inaczej niż meksykański. Oto znaki szczególne odmiany europejskiej:",
+    "punkty": [
+      "Ceceo: litery c (przed e, i) i z wymawia się jak angielskie th — gracias brzmi graθjas.",
+      "Vosotros: Hiszpanie mówią do grupy vosotros (wy) z własną odmianą — ¿vosotros queréis? Meksykanie używają ustedes.",
+      "Vale i venga: uniwersalne vale (okej, dobra) usłyszysz co minutę. Tío/tía to potocznie ziomek, ziomka.",
+      "Anglicyzmy z hiszpańską wymową: el fútbol, el finde (weekend), hacer footing (biegać)."
+    ]
+  },
+  "zwroty": [
+    { "es": "¡Hola! ¿Qué tal?", "pl": "Cześć! Co słychać?", "fon": "ola, ke tal" },
+    { "es": "Buenos días", "pl": "Dzień dobry (rano)", "fon": "buenos dias" },
+    { "es": "Buenas tardes", "pl": "Dzień dobry (po południu)", "fon": "buenas tardes" },
+    { "es": "Gracias", "pl": "Dziękuję", "fon": "graθjas" },
+    { "es": "Por favor", "pl": "Proszę", "fon": "por fawor" },
+    { "es": "Perdona", "pl": "Przepraszam (do znajomego)", "fon": "perdona" },
+    { "es": "¿Dónde está la plaza?", "pl": "Gdzie jest plac?", "fon": "donde esta la plaθa" },
+    { "es": "Una tapa, por favor", "pl": "Jedną przekąskę, proszę", "fon": "una tapa, por fawor" },
+    { "es": "¿Cuánto cuesta?", "pl": "Ile to kosztuje?", "fon": "kuanto kuesta" },
+    { "es": "¡Vale!", "pl": "Dobra! Okej!", "fon": "bale" },
+    { "es": "Hasta luego", "pl": "Do zobaczenia", "fon": "asta luego" },
+    { "es": "¡Felices fiestas!", "pl": "Wesołych świąt!", "fon": "feliθes fiestas" }
+  ],
+  "quiz": [
+    { "p": "Stolicą Hiszpanii jest…", "o": ["Madryt", "Barcelona", "Sewilla", "Walencja"], "c": 0, "w": "Madryt leży na płaskowyżu Meseta w samym środku kraju i jest stolicą od 1561 roku." },
+    { "p": "La Tomatina to święto…", "o": ["bitwy na pomidory", "ognisk i kukieł", "gonitwy byków", "procesji wielkanocnych"], "c": 0, "w": "W Buñol co roku leci 150 ton pomidorów — zaczęło się od bójki młodzieży w 1945 roku." },
+    { "p": "Sagrada Família znajduje się w…", "o": ["Barcelonie", "Madrycie", "Sewilli", "Bilbao"], "c": 0, "w": "Bazylika Gaudiego powstaje od 1882 roku i wciąż jest w budowie." },
+    { "p": "Flamenco pochodzi z…", "o": ["Andaluzji", "Katalonii", "Galicji", "Aragonii"], "c": 0, "w": "Andaluzja na południu to kolebka śpiewu, tańca i gitary flamenco (UNESCO 2010)." },
+    { "p": "Alhambra to zabytek w…", "o": ["Grenadzie", "Toledo", "Kordobie", "Saragossie"], "c": 0, "w": "Czerwony pałac emirów z dynastii Nasrydów stoi na wzgórzu nad Grenadą." },
+    { "p": "San Fermín odbywa się w…", "o": ["Pampelunie", "Maladze", "Walencji", "Leonie"], "c": 0, "w": "Gonitwa byków ulicami Pampeluny odbywa się co roku 6–14 lipca." },
+    { "p": "Paella pochodzi z regionu…", "o": ["Walencji", "Asturii", "Baskonii", "Extremadury"], "c": 0, "w": "Oryginalna paella walencjańska to ryż z szafranem, królikiem i fasolą." },
+    { "p": "Sjesta to…", "o": ["popołudniowa przerwa w upał", "poranny taniec", "rodzaj gitary", "festiwal ognia"], "c": 0, "w": "Przerwa między 14:00 a 17:00 pozwala przetrwać największy upał dnia." },
+    { "p": "Hiszpanie witają Nowy Rok…", "o": ["jedząc 12 winogron", "puszczając lampiony", "paląc kukły", "kąpiąc się w morzu"], "c": 0, "w": "Po jednym winogronie na każde uderzenie zegara na Puerta del Sol w Madrycie." },
+    { "p": "Akwedukt w Segowii zbudowali…", "o": ["Rzymianie", "Maurowie", "Wizygoci", "Fenicjanie"], "c": 0, "w": "167 granitowych łuków złożono bez zaprawy około 50 roku n.e." },
+    { "p": "Słowo „vale” znaczy mniej więcej…", "o": ["okej, dobra", "dziękuję", "przepraszam", "do widzenia"], "c": 0, "w": "Vale usłyszysz w Hiszpanii co minutę — to uniwersalne potwierdzenie." },
+    { "p": "Do Hiszpanii NIE należy…", "o": ["Jukatan", "Ibiza", "Teneryfa", "Majorka"], "c": 0, "w": "Jukatan leży w Meksyku; Ibiza, Teneryfa i Majorka to hiszpańskie wyspy." }
+  ]
+}

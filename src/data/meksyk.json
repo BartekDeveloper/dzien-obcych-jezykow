@@ -1,0 +1,105 @@
+{
+  "id": "mx",
+  "nazwa": "Meksyk",
+  "powitanie": "¿Qué onda? ¡Viva México!",
+  "hero": {
+    "tytul": "Meksyk — kraj piramid, mariachi i Dnia Zmarłych",
+    "lead": "Od miast Majów w dżungli Jukatanu po gwarne Zócalo w stolicy. Poznaj kraj, w którym czekolada się urodziła, zmarłych wita się fiestą, a na powitanie mówi się: ¿qué onda?",
+    "statystyki": [
+      { "w": "128 mln", "t": "mieszkańców" },
+      { "w": "68", "t": "języków rdzennych" },
+      { "w": "35", "t": "obiektów UNESCO" },
+      { "w": "12", "t": "zwrotów z lektorem" }
+    ]
+  },
+  "geografia": {
+    "tytul": "Geografia w pigułce",
+    "lead": "Meksyk łączy Amerykę Północną z Środkową: pustynie na północy, wulkany w centrum i tropikalną dżunglę na południu.",
+    "akapity": [
+      "Stolicą jest Ciudad de México — jedna z największych metropolii świata, zbudowana na miejscu azteckiego Tenochtitlánu, na wysokości 2240 m n.p.m. Półwysep Jukatan kryje miasta Majów i podziemne studnie cenotes, a wybrzeża oblewają dwa oceany: Spokojny i Atlantyk (Morze Karaibskie).",
+      "Przez środek kraju biegnie wulkaniczny Transmeksykański Pas Wulkaniczny z czynnym Popocatépetlem, którego Aztekowie nazywali Dymiącą Górą. Na pustyni Chihuahua rosną gigantyczne kaktusy saguaro, a w jeziorach Xochimilco żyje aksolotl — płaz potrafiący odbudować serce.",
+      "Meksyk to też królestwo kukurydzy: uprawia się tu 60 jej odmian. Z kukurydzy powstają tortilla, tacos, tamales i pozole — podstawa kuchni wpisanej na listę UNESCO."
+    ],
+    "fakty": [
+      { "w": "2 mln km²", "t": "powierzchnia — 4 razy Polska" },
+      { "w": "Ciudad de México", "t": "stolica, 22 mln w metropolii" },
+      { "w": "peso meksykańskie", "t": "waluta (znak $ też!)" },
+      { "w": "2 oceany", "t": "Spokojny i Atlantycki" }
+    ]
+  },
+  "historia": [
+    { "rok": "ok. 1200 p.n.e.", "t": "Olmekowie i pierwsze miasta", "o": "Na wybrzeżu Zatoki Meksykańskiej powstaje pierwsza wielka cywilizacja Mezoameryki — słynna z gigantycznych kamiennych głów." },
+    { "rok": "250–900 n.e.", "t": "Klasyczni Majowie", "o": "Miasta Chichén Itzá, Palenque i Uxmal. Kalendarz dokładniejszy niż europejski, pismo hieroglificzne, piramidy-schody do nieba." },
+    { "rok": "1325", "t": "Tenochtitlán", "o": "Aztekowie budują stolicę na jeziorze Texcoco — miasto-kanały większe niż ówczesny Londyn. Orzeł na kaktusie z ich legendy jest dziś w godle Meksyku." },
+    { "rok": "1519–1521", "t": "Konkwista Cortésa", "o": "Hiszpanie oblegają i zdobywają Tenochtitlán. Na ruinach wyrasta Nowa Hiszpania — stolica imperium kolonialnego." },
+    { "rok": "1810–1821", "t": "Niepodległość", "o": "Ksiądz Hidalgo wzywa do powstania słynnym Grito de Dolores. Meksyk staje się niepodległy; 16 września to święto narodowe." },
+    { "rok": "1862", "t": "Puebla — Cinco de Mayo", "o": "Meksykanie pokonują armię francuską pod Pueblą. Rocznica 5 maja to dziś wielka fiesta — także w USA." },
+    { "rok": "1910–1920", "t": "Rewolucja meksykańska", "o": "Zapata i Villa walczą o ziemię dla chłopów. Muraliści (Rivera, Orozco) malują historię kraju na ścianach pałaców." },
+    { "rok": "1968 / dziś", "t": "Igrzyska i współczesność", "o": "Olimpiada w Meksyku (1968), mundial (1970, 1986, 2026), boom kuchni i kina meksykańskiego na świecie." }
+  ],
+  "swieta": [
+    { "icon": "i-czaszka", "plik": "foto/mx-ofrenda.jpg", "podpisFoto": "Fot. Luciernaga3, CC BY-SA 4.0, via Wikimedia Commons", "t": "Día de Muertos — 1–2 listopada", "d": "Najpiękniejsze święto Meksyku: rodziny budują kolorowe ołtarzyki (ofrendas) ze zdjęciami, jedzeniem i nagietkami, by dusze bliskich wróciły w gości. Parada czaszek Catrin w stolicy, chleb pan de muerto. To święto życia, nie strachu." },
+    { "icon": "i-gwiazda", "plik": "foto/mx-pinata.jpg", "podpisFoto": "Fot. George Louis, CC BY-SA 3.0, via Wikimedia Commons (1961)", "t": "Las Posadas — 16–24 grudnia", "d": "Dziewięć wieczorów kolędowania: procesje z lampionami odtwarzają poszukiwanie noclegu przez Marię i Józefa. Finał to rozbijanie gwiaździstej piñaty pełnej owoców i słodyczy." },
+    { "icon": "i-kwiat", "t": "Guelaguetza — Oaxaca, lipiec", "d": "Festiwal rdzennych ludów stanu Oaxaca: tańce w haftowanych strojach, muzyka bandas, a tancerze rzucają publiczności ananasy i chleb — dar wzajemności (guelaguetza)." },
+    { "icon": "i-medal", "t": "Cinco de Mayo — 5 maja", "d": "Rocznica zwycięstwa pod Pueblą (1862). Parady wojskowe, mariachi i mole poblano — nie mylić z Dniem Niepodległości (16 września)!" },
+    { "icon": "i-swieca", "t": "Dzień Matki Boskiej z Guadalupe — 12 grudnia", "d": "Największa pielgrzymka Ameryki: miliony wiernych idą do bazyliki w stolicy. Poprzedzają ją całonocne śpiewy (Las Mañanitas) i tańce matachines." }
+  ],
+  "kuchnia": [
+    { "icon": "i-taco", "plik": "foto/mx-tacos.jpg", "podpisFoto": "Fot. City Foodsters, CC BY 2.0, via Wikimedia Commons", "t": "Tacos al pastor", "d": "Kukurydziana tortilla, wieprzowina z rożna (pamiątka po libańskich imigrantach!), ananas, cebula, kolendra i salsa. Jedzone na stojąco, najlepiej po północy." },
+    { "icon": "i-garnek", "t": "Mole poblano", "d": "Gęsty sos z czekolady, chili i przypraw do indyka. Legenda: wymyśliły go zakonnice z Puebli. Ponad 20 składników, godziny gotowania." },
+    { "icon": "i-miska", "t": "Guacamole", "d": "Rozgniecione awokado z limonką, cebulą i kolendrą. Robi się je na świeżo, tuż przed podaniem — z chipsami totopos." },
+    { "icon": "i-kukurydza", "t": "Tamales", "d": "Kukurydziane ciasto z nadzieniem, gotowane w liściach kukurydzy lub bananowca. Świąteczny rytuał: cała rodzina lepi setki tamales (tamalada)." },
+    { "icon": "i-papryka", "t": "Pozole i elote", "d": "Sycąca zupa z hominy (wielkiej kukurydzy) oraz pieczona kukurydza elote z majonezem, serem cotija i chili — królowa ulicznych straganów." }
+  ],
+  "muzyka": [
+    { "icon": "i-trabka", "plik": "foto/mx-mariachi.jpg", "podpisFoto": "Fot. José Luiz, CC BY-SA 4.0, via Wikimedia Commons", "t": "Mariachi", "d": "Skrzypce, trąbki, gitary i wielkie gitarony. Muzycy w haftowanych strojach charro śpiewają o miłości i ojczyźnie. Klasyki: La Bamba, Cielito Lindo, El Son de la Negra." },
+    { "icon": "i-marakasy", "t": "Son jarocho i marakasy", "d": "Skoczna muzyka z Veracruz z małą harfą jaraną. Tancerze wystukują rytm na drewnianej platformie (tarima)." },
+    { "icon": "i-czaszka", "t": "Calaveras literackie", "d": "Żartobliwe wierszyki o śmierci na Dzień Zmarłych — nawet politycy dostają swoją „kalawerę”. Śmiech oswaja przemijanie." },
+    { "icon": "i-gitara", "t": "Banda i norteño", "d": "Dęte orkiestry z Sinaloa i akordeonowy norteño z pogranicza USA. Podstawa każdej wiejskiej fiesty i quinceañery (15. urodzin)." }
+  ],
+  "zabytki": [
+    { "icon": "i-piramida", "plik": "foto/mx-chichen.jpg", "podpisFoto": "Fot. Daniel Schwen, CC BY-SA 4.0, via Wikimedia Commons", "t": "Chichén Itzá, Jukatan", "d": "Piramida Kukulkana: 365 stopni jak dni w roku. W równonoc cień układa się w pełzającego węża. Jeden z 7 nowych cudów świata.", "foto": "Majowie, ok. 600–1200 n.e." },
+    { "icon": "i-slonce", "plik": "foto/mx-teotihuacan.jpg", "podpisFoto": "Fot. Daniel Case, CC BY-SA 3.0, via Wikimedia Commons", "t": "Teotihuacán", "d": "Aleja Zmarłych, Piramida Słońca (trzecia co do wielkości na świecie) i Piramida Księżyca. Miasto bogów, starsze niż Aztekowie.", "foto": "ok. 100 p.n.e. – 650 n.e." },
+    { "icon": "i-teatr", "plik": "foto/mx-bellas.jpg", "podpisFoto": "Fot. Jeses, CC BY-SA 2.5, via Wikimedia Commons", "t": "Palacio de Bellas Artes", "d": "Biały marmurowy pałac w stolicy z kurtyną z witraży Tiffany'ego. W środku murale Rivery i Orozco.", "foto": "secesja + art déco, 1934" },
+    { "icon": "i-plac", "plik": "foto/mx-zocalo.jpg", "podpisFoto": "Fot. Cvmontuy, CC BY 4.0, via Wikimedia Commons", "t": "Zócalo", "d": "Plac Konstytucji — jeden z największych placów świata. Katedra, Pałac Narodowy z muralami i wielka flaga na maszcie.", "foto": "serce stolicy od czasów Azteków" },
+    { "icon": "i-lodka", "plik": "foto/mx-xochimilco.jpg", "podpisFoto": "Fot. Syced, CC0, via Wikimedia Commons", "t": "Xochimilco", "d": "Pływające ogrody-chinampas i kolorowe łodzie trajineras. Mariachi podpływają do łodzi grać na życzenie.", "foto": "UNESCO, tradycja aztecka" },
+    { "icon": "i-gora", "t": "Monte Albán, Oaxaca", "d": "Zapoteccy wyrównali szczyt góry, by zbudować miasto-obserwatorium. Grobowce, boisko do gry w piłkę i pismo sprzed 2000 lat.", "foto": "Zapotekowie, ok. 500 p.n.e." }
+  ],
+  "jezyk": {
+    "lead": "Meksykański hiszpański brzmi miękko i śpiewnie. Oto jego znaki szczególne:",
+    "punkty": [
+      "Seseo: litery c (przed e, i) i z wymawia się jak zwykłe s — gracias brzmi grasjas (nie graθjas jak w Hiszpanii).",
+      "Ustedes zamiast vosotros: do grupy mówi się ustedes z formą jak dla państwa — ¿ustedes quieren?",
+      "¿Qué onda? i órale: ¿qué onda? (co słychać?), órale (no dawaj! / serio?), padre (fajny), güey (kumpel, potocznie).",
+      "Słowa z nahuatl: chocolate (xocolatl), tomate (tomatl), aguacate (ahuacatl), coyote, chile. Meksyk podarował je całemu światu."
+    ]
+  },
+  "zwroty": [
+    { "es": "¿Qué onda?", "pl": "Co słychać? (luzacko)", "fon": "ke onda" },
+    { "es": "Buenos días", "pl": "Dzień dobry (rano)", "fon": "buenos dias" },
+    { "es": "Muchas gracias", "pl": "Bardzo dziękuję", "fon": "mucias grasjas" },
+    { "es": "Por favor", "pl": "Proszę", "fon": "por fawor" },
+    { "es": "Con permiso", "pl": "Przepraszam (przepuszczając)", "fon": "kon permiso" },
+    { "es": "¿Dónde está el Zócalo?", "pl": "Gdzie jest główny plac?", "fon": "donde esta el sokalo" },
+    { "es": "Un taco, por favor", "pl": "Jedno taco, proszę", "fon": "un tako, por fawor" },
+    { "es": "¿Pica mucho?", "pl": "Czy to bardzo ostre?", "fon": "pika mucio" },
+    { "es": "¡Órale!", "pl": "No dawaj! / Serio?", "fon": "orale" },
+    { "es": "¡Viva México!", "pl": "Niech żyje Meksyk!", "fon": "biwa mechiko" },
+    { "es": "Hasta luego", "pl": "Do zobaczenia", "fon": "asta luego" },
+    { "es": "¡Feliz Día de Muertos!", "pl": "Szczęśliwego Dnia Zmarłych!", "fon": "felis dia de muertos" }
+  ],
+  "quiz": [
+    { "p": "Stolicą Meksyku jest…", "o": ["Ciudad de México", "Cancún", "Guadalajara", "Puebla"], "c": 0, "w": "Metropolia na wysokości 2240 m n.p.m. stoi na miejscu azteckiego Tenochtitlánu." },
+    { "p": "Día de Muertos obchodzi się…", "o": ["1–2 listopada", "6 stycznia", "5 maja", "w Wielkanoc"], "c": 0, "w": "Listopadowe święto wita dusze bliskich ofrendas, nagietkami i paradą Catrin." },
+    { "p": "Chichén Itzá zbudowali…", "o": ["Majowie", "Aztekowie", "Olmekowie", "Hiszpanie"], "c": 0, "w": "Piramida Kukulkana na Jukatanie to dzieło Majów (ok. 600–1200 n.e.)." },
+    { "p": "Mariachi to…", "o": ["meksykańscy muzycy ludowi", "taniec z Sewilli", "potrawa z kukurydzy", "rodzaj kapelusza"], "c": 0, "w": "Skrzypce, trąbki i gitary w haftowanych strojach charro — wizytówka fiesty." },
+    { "p": "Meksyk graniczy od północy z…", "o": ["USA", "Gwatemalą", "Hiszpanią", "Kubą"], "c": 0, "w": "Od północy USA, od południa Gwatemala i Belize." },
+    { "p": "Teotihuacán słynie z…", "o": ["Piramid Słońca i Księżyca", "katedry gotyckiej", "akweduktu", "arene walk byków"], "c": 0, "w": "Miasto bogów jest starsze niż Aztekowie — Aleja Zmarłych ma 2 km." },
+    { "p": "Piñata to…", "o": ["figura z niespodziankami", "rodzaj tacos", "kapelusz", "instrument"], "c": 0, "w": "Gwiaździstą piñatę rozbija się w Las Posadas — sypią się owoce i słodycze." },
+    { "p": "Cinco de Mayo upamiętnia…", "o": ["zwycięstwo pod Pueblą (1862)", "niepodległość (1810)", "rewolucję (1910)", "konstytucję (1917)"], "c": 0, "w": "Meksykanie pokonali wtedy armię francuską — nie mylić z 16 września." },
+    { "p": "Aksolotl to…", "o": ["płaz z Xochimilco", "ptak z Jukatanu", "owoc kaktusa", "wulkan"], "c": 0, "w": "Płaz, który się nie przeobraża i potrafi odbudować nawet serce." },
+    { "p": "Słowo „czekolada” pochodzi z języka…", "o": ["nahuatl", "kastylijskiego", "maya", "portugalskiego"], "c": 0, "w": "Xocolatl pili Majowie i Aztekowie; podobnie tomate i aguacate." },
+    { "p": "Guelaguetza odbywa się w…", "o": ["Oaxaca", "Puebli", "Cancún", "Tijuanie"], "c": 0, "w": "Lipcowy festiwal rdzennych ludów stanu Oaxaca — taniec i dary dla widowni." },
+    { "p": "„¿Qué onda?” znaczy…", "o": ["co słychać?", "ile kosztuje?", "gdzie jest?", "smacznego"], "c": 0, "w": "Luzackie powitanie młodzieży — odpowiedz: ¡órale, todo bien!" }
+  ]
+}
