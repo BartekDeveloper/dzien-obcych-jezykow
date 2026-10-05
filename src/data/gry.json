@@ -44,26 +44,5 @@
     { "es": "familia", "pl": "rodzina", "icon": "i-druzyna" },
     { "es": "escuela", "pl": "szkoła", "icon": "i-ksiega" },
     { "es": "gracias", "pl": "dziękuję", "icon": "i-kwiat" }
-  ],
-  "kalambury": [
-    "taniec flamenco", "walka byków", "rozbijanie piñaty", "jedzenie tacos",
-    "gra na gitarze", "gonitwa byków w Pampelunie", "bitwa na pomidory",
-    "zakładanie sombrera", "gra na marakasach", "wspinaczka na piramidę",
-    "malowanie twarzy na Dzień Zmarłych", "jedzenie paelli", "spanie w czasie sjesty",
-    "pływanie łodzią w Xochimilco", "picie horchaty", "tańczenie salsy",
-    "jedzenie churros z czekoladą", "palenie kukieł Las Fallas", "procesja wielkanocna",
-    "gra na kastanietach", "malowanie muralu", "łapanie byka na lasso",
-    "noszenie dzbana na głowie", "robienie meksykańskiej fali", "puszczanie lampionów",
-    "jedzenie ostrej papryczki", "śpiewanie La Bamby", "przytulanie kaktusa",
-    "kupowanie pamiątek na bazarze", "budowanie zamku z piasku", "gra w piłkę na plaży",
-    "otwieranie wachlarza", "tupanie w rytm flamenco", "tańczenie w kole",
-    "robienie guacamole", "lepienie tamales", "jedzenie winogron w Sylwestra",
-    "bieg z bykami", "gra na trąbce mariachi", "tańczenie sardanę",
-    "zwiedzanie Alhambry", "wspinaczka na wulkan", "pływanie w cenote",
-    "robienie selfie z jaszczurką Gaudiego", "picie czekolady Majów", "tańczenie z szalem",
-    "parada gigantów", "oglądanie meczu El Clásico", "spanie pod sombrerem",
-    "gra na harfie jaranie", "niesienie platformy pasos", "rzucanie ananasem w Guelaguetzy",
-    "malowanie czaszki-cukierka", "tańczenie matachines", "przechodzenie przez bramę nagietków",
-    "jedzenie elote na straganie", "picie tinto de verano", "tańczenie paso doble"
   ]
 }

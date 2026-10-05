@@ -1,114 +1,13 @@
 <!doctype html>
-<html lang="pl" data-pawilon="start">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dzień Języków Obcych — Meksyk i Hiszpania</title>
-  <meta name="description" content="Interaktywna strona na Dzień Języków Obcych: dwa pawilony — Hiszpania i Meksyk. Historia, święta, kuchnia, muzyka, zabytki, zwroty z lektorem i strefa gier. Po polsku." />
-  <link rel="stylesheet" href="/src/styles.css" />
-</head>
-<body>
-  <a class="skip-link" href="#tresc">Przejdź do treści</a>
-  <header class="topbar">
-    <div class="bar">
-      <a class="brand" href="index.html"><span class="flagi" aria-hidden="true"><svg class="flaga-mini"><use href="icons.svg#i-flag-es"/></svg><svg class="flaga-mini"><use href="icons.svg#i-flag-mx"/></svg></span> Dzień Języków</a>
-      <button type="button" class="narz" id="menu-btn" aria-expanded="false" aria-controls="nawigacja" hidden><svg class="ik" aria-hidden="true"><use href="icons.svg#i-menu"/></svg> Menu</button>
-      <nav class="mainnav" id="nawigacja" aria-label="Nawigacja główna">
-        <a href="index.html">Start</a>
-        <a href="hiszpania.html"><svg class="flaga-mini" aria-hidden="true"><use href="icons.svg#i-flag-es"/></svg> Hiszpania</a>
-        <a href="meksyk.html"><svg class="flaga-mini" aria-hidden="true"><use href="icons.svg#i-flag-mx"/></svg> Meksyk</a>
-        <a href="gry.html"><svg class="ik" aria-hidden="true"><use href="icons.svg#i-quiz"/></svg> Strefa gier</a>
-      </nav>
-      <div class="tools" role="group" aria-label="Ułatwienia dostępu i udostępnianie">
-        <button type="button" class="narz" id="w-ruch" aria-pressed="false" aria-label="Wyłącz animacje" title="Bez ruchu"><svg class="ik" aria-hidden="true"><use href="icons.svg#i-bez-ruchu"/></svg></button>
-        <button type="button" class="narz" id="w-projektor" aria-pressed="false" aria-label="Tryb projektora: większy tekst" title="Tryb projektor">A+</button>
-        <button type="button" class="narz" id="w-udostepnij" aria-label="Pokaż kod QR do wysłania klasie" title="QR / Wyślij klasie"><svg class="ik" aria-hidden="true"><use href="icons.svg#i-udostepnij"/></svg></button>
-      </div>
-    </div>
-  </header>
-
-  <section class="hero index" aria-labelledby="tytul">
-    <div class="hero-baner" aria-hidden="true"><img src="foto/mx-teotihuacan.jpg" alt="" fetchpriority="high" /></div>
-    <div class="hero-inner wrap hero-nakladka">
-      <p><span class="kicker">Dzień Języków Obcych · po polsku · wstęp wolny</span></p>
-      <h1 id="tytul">Dwa kraje, jeden język,<br />tysiąc historii</h1>
-      <p class="lead">Po hiszpańsku mówi ponad <b>600 milionów ludzi</b> — od Madrytu po Meksyk. Wybierz pawilon i zwiedzaj: historia na osi czasu, święta, kuchnia, muzyka, zabytki, zwroty z lektorem i quiz na końcu każdego pawilonu.</p>
-      <div class="cta-row">
-        <a class="btn accent" href="hiszpania.html"><svg class="flaga-mini" aria-hidden="true"><use href="icons.svg#i-flag-es"/></svg> Wejdź do Hiszpanii</a>
-        <a class="btn accent" href="meksyk.html"><svg class="flaga-mini" aria-hidden="true"><use href="icons.svg#i-flag-mx"/></svg> Wejdź do Meksyku</a>
-        <a class="btn primary" href="gry.html"><svg class="ik" aria-hidden="true"><use href="icons.svg#i-quiz"/></svg> Od razu do gier</a>
-      </div>
-    </div>
-    <svg class="papel" viewBox="0 0 1200 44" preserveAspectRatio="none" aria-hidden="true"><rect x="0" y="0" width="1200" height="6" fill="#211a13"/><polygon points="0,8 100,8 50,38" fill="#c1272d"/><polygon points="100,8 200,8 150,38" fill="#f1bf00"/><polygon points="200,8 300,8 250,38" fill="#0a5c36"/><polygon points="300,8 400,8 350,38" fill="#c2185b"/><polygon points="400,8 500,8 450,38" fill="#1d4e89"/><polygon points="500,8 600,8 550,38" fill="#c1272d"/><polygon points="600,8 700,8 650,38" fill="#f1bf00"/><polygon points="700,8 800,8 750,38" fill="#0a5c36"/><polygon points="800,8 900,8 850,38" fill="#c2185b"/><polygon points="900,8 1000,8 950,38" fill="#1d4e89"/><polygon points="1000,8 1100,8 1050,38" fill="#c1272d"/><polygon points="1100,8 1200,8 1150,38" fill="#f1bf00"/></svg>
-  </section>
-
-  <main id="tresc" class="wrap">
-    <section class="blok" aria-labelledby="h-jak">
-      <h2 id="h-jak">Jak korzystać ze strony?</h2>
-      <p class="lead">Trzy kroki — na lekcji, na rzutniku albo na telefonie.</p>
-      <div class="grid c3">
-        <article class="card reveal"><div aria-hidden="true"><svg class="ik-duza"><use href="icons.svg#i-kolumna"/></svg></div>
-          <h3>1. Zwiedzaj pawilony</h3>
-          <p class="sub">Hiszpania i Meksyk mają po 8 rozdziałów: geografia, historia, święta, kuchnia, muzyka, zabytki, język i zwroty z głośnikiem.</p></article>
-        <article class="card reveal"><div aria-hidden="true"><svg class="ik-duza"><use href="icons.svg#i-quiz"/></svg></div>
-          <h3>2. Graj i sprawdzaj się</h3>
-          <p class="sub">Quiz na końcu każdego pawilonu plus Strefa Gier: pojedynek Hiszpania kontra Meksyk, memory, zagadki i kalambury drużynowe.</p></article>
-        <article class="card reveal"><div aria-hidden="true"><svg class="ik-duza"><use href="icons.svg#i-udostepnij"/></svg></div>
-          <h3>3. Wyślij klasie</h3>
-          <p class="sub">Przycisk „QR / Wyślij klasie” pokazuje kod do zeskanowania telefonem. Rekordy zapisują się w przeglądarce — żadnych kont.</p></article>
-      </div>
-    </section>
-
-    <section class="blok" aria-labelledby="h-wybor">
-      <h2 id="h-wybor">Wybierz pawilon</h2>
-      <div class="grid c2">
-        <article class="card reveal">
-          <span class="tag">Pawilon · Europa</span>
-          <h3><svg class="flaga-mini" aria-hidden="true"><use href="icons.svg#i-flag-es"/></svg> Hiszpania — flamenco, fiesta i sjesta</h3>
-          <p class="sub">Alhambra i Sagrada Família, La Tomatina i San Fermín, tapas i churros. Osiem rozdziałów + quiz z 12 pytaniami.</p>
-          <p><a class="btn accent" href="hiszpania.html">Zwiedzaj Hiszpanię</a></p>
-        </article>
-        <article class="card reveal">
-          <span class="tag">Pawilon · Ameryka</span>
-          <h3><svg class="flaga-mini" aria-hidden="true"><use href="icons.svg#i-flag-mx"/></svg> Meksyk — piramidy, mariachi i Dzień Zmarłych</h3>
-          <p class="sub">Chichén Itzá i Teotihuacán, ofrendas i piñaty, tacos i mole. Osiem rozdziałów + quiz z 12 pytaniami.</p>
-          <p><a class="btn accent" href="meksyk.html">Zwiedzaj Meksyk</a></p>
-        </article>
-      </div>
-    </section>
-
-    <section class="blok" aria-labelledby="h-slowko">
-      <h2 id="h-slowko">Słówko na rozgrzewkę</h2>
-      <div class="prose reveal">
-        <p>Hiszpańskie <span lang="es"><b>fiesta</b></span> znaczy zarówno „święto”, jak i „imprezę” — bo w obu krajach świętowanie to poważna sprawa. Z kolei <span lang="es"><b>mañana</b></span> to nie zawsze „jutro”; w Meksyku często znaczy po prostu „kiedyś, nie teraz”. Więcej takich pułapek znajdziesz w zagadkach w Strefie Gier.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap">
-      <p><b>Dzień Języków Obcych — Meksyk i Hiszpania.</b> Strona statyczna, hosting GitHub Pages. Ilustracje: znaki emoji oraz grafiki SVG rysowane kodem — strona działa offline (poza kodem QR). Adres: <code>https://bartekdeveloper.github.io/dzien-obcych-jezykow</code>.</p>
-      <p>Dostępność: WCAG 2.2 AA — skip-link, pełna obsługa klawiaturą, komunikaty dla czytników ekranu, tryb bez ruchu, tryb projektora.</p>
-    </div>
-  </footer>
-
-  <dialog id="udostepnij" aria-labelledby="ud-t">
-    <h3 id="ud-t">Wyślij stronę klasie</h3>
-    <p class="sub">Pokaż kod na projektorze — uczniowie skanują go telefonem.</p>
-    <img class="qr" id="ud-qr" src="" alt="Kod QR do tej strony" width="200" height="200" />
-    <p><label for="ud-link">Link do strony:</label><input class="link" id="ud-link" readonly value="" /></p>
-    <div class="wiersz">
-      <button type="button" class="btn accent" id="ud-kopiuj">Kopiuj link</button>
-      <button type="button" class="btn" id="ud-system">Udostępnij…</button>
-      <form method="dialog"><button class="btn">Zamknij (Esc)</button></form>
-    </div>
-  </dialog>
-
-  <script type="module">
-    import { startWspolny } from '/src/js/wspolne.js';
-    startWspolny();
-  </script>
-
-  <button type="button" class="btn primary" id="do-gory" hidden><svg class="ik" aria-hidden="true"><use href="icons.svg#i-gora"/></svg> W górę</button>
-</body>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dzień Języków Obcych — Meksyk i Hiszpania</title>
+    <meta name="description" content="Kuratorska platforma edukacyjna: Hiszpania i Meksyk. Pawilony wiedzy, zwroty z lektorem, arena gier i quizów. Po polsku." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/entry-client.jsx"></script>
+  </body>
 </html>

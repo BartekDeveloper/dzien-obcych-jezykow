@@ -1,0 +1,99 @@
+{
+  "glosariusz": [
+    { "es": "el coche", "mx": "el carro", "pl": "samochód" },
+    { "es": "el ordenador", "mx": "la computadora", "pl": "komputer" },
+    { "es": "el zumo", "mx": "el jugo", "pl": "sok" },
+    { "es": "el melocotón", "mx": "el durazno", "pl": "brzoskwinia" },
+    { "es": "la patata", "mx": "la papa", "pl": "ziemniak" },
+    { "es": "las gafas", "mx": "los lentes", "pl": "okulary" },
+    { "es": "el autobús", "mx": "el camión", "pl": "autobus" },
+    { "es": "el piso", "mx": "el departamento", "pl": "mieszkanie" }
+  ],
+  "trabalenguas": [
+    {
+      "wariant": "iberyjski", "lang": "es-ES", "poziom": "średni",
+      "tekst": "El perro de San Roque no tiene rabo porque Ramón Ramírez se lo ha cortado.",
+      "pl": "Pies świętego Rocha nie ma ogona, bo obciął mu go Ramón Ramírez. Klasyk ćwiczący mocne, drżące r."
+    },
+    {
+      "wariant": "meksykański", "lang": "es-MX", "poziom": "zaawansowany",
+      "tekst": "Tres tristes tigres tragaban trigo en un trigal en tres tristes trastos.",
+      "pl": "Trzy smutne tygrysy połykały pszenicę na pszenicznym polu w trzech smutnych naczyniach."
+    }
+  ],
+  "fiszki": [
+    { "es": "sombrero", "pl": "kapelusz", "fon": "sombrero" },
+    { "es": "guitarra", "pl": "gitara", "fon": "gitarra" },
+    { "es": "toro", "pl": "byk", "fon": "toro" },
+    { "es": "fiesta", "pl": "święto, impreza", "fon": "fiesta" },
+    { "es": "paella", "pl": "danie z ryżu", "fon": "paeja" },
+    { "es": "taco", "pl": "tortilla z nadzieniem", "fon": "tako" },
+    { "es": "pirámide", "pl": "piramida", "fon": "piramide" },
+    { "es": "cactus", "pl": "kaktus", "fon": "kaktus" },
+    { "es": "maracas", "pl": "grzechotki", "fon": "marakas" },
+    { "es": "playa", "pl": "plaża", "fon": "plaja" },
+    { "es": "chocolate", "pl": "czekolada", "fon": "czokolate" },
+    { "es": "flamenco", "pl": "taniec andaluzyjski", "fon": "flamenko" },
+    { "es": "mercado", "pl": "targ, bazar", "fon": "merkado" },
+    { "es": "familia", "pl": "rodzina", "fon": "familja" },
+    { "es": "escuela", "pl": "szkoła", "fon": "eskuela" },
+    { "es": "gracias", "pl": "dziękuję", "fon": "grasjas" },
+    { "es": "la cuenta, por favor", "pl": "rachunek, proszę", "fon": "la kuenta, por fawor" },
+    { "es": "el baño", "pl": "łazienka", "fon": "el banio" },
+    { "es": "el helado", "pl": "lody", "fon": "el elado" },
+    { "es": "la limonada", "pl": "lemoniada", "fon": "la limonada" },
+    { "es": "el taxi", "pl": "taksówka", "fon": "el taksi" },
+    { "es": "la calle", "pl": "ulica", "fon": "la kaje" },
+    { "es": "el museo", "pl": "muzeum", "fon": "el museo" },
+    { "es": "el regalo", "pl": "prezent", "fon": "el regalo" },
+    { "es": "el mariachi", "pl": "muzyk ludowy", "fon": "el marjaci" },
+    { "es": "la piñata", "pl": "figura z niespodziankami", "fon": "la pinjata" },
+    { "es": "el chile", "pl": "papryczka chili", "fon": "el czile" },
+    { "es": "la salsa", "pl": "sos", "fon": "la salsa" }
+  ],
+  "czytanki": [
+    {
+      "tytul": "W restauracji (Meksyk)", "lang": "es-MX",
+      "kwestie": [
+        { "es": "Buenas tardes. ¿Mesa para dos?", "pl": "Dzień dobry. Stolik dla dwojga?" },
+        { "es": "Sí, por favor. ¿Tienen tacos al pastor?", "pl": "Tak, proszę. Czy mają państwo tacos al pastor?" },
+        { "es": "Claro que sí. ¿Pica mucho?", "pl": "Oczywiście. Czy to bardzo ostre?" },
+        { "es": "Un poco. Con limón pica menos.", "pl": "Trochę. Z limonką jest łagodniej." },
+        { "es": "Entonces, dos tacos y una limonada.", "pl": "W takim razie dwa tacos i lemoniadę." },
+        { "es": "¿Algo más? ¿Un postre?", "pl": "Coś jeszcze? Może deser?" },
+        { "es": "No, gracias. La cuenta, por favor.", "pl": "Nie, dziękuję. Rachunek, proszę." }
+      ],
+      "slowa": [
+        { "es": "pica", "pl": "jest ostre (od piec)", "fon": "pika" },
+        { "es": "la cuenta", "pl": "rachunek", "fon": "la kuenta" },
+        { "es": "el postre", "pl": "deser", "fon": "el postre" }
+      ]
+    },
+    {
+      "tytul": "Na fieście (Hiszpania)", "lang": "es-ES",
+      "kwestie": [
+        { "es": "¡Hola! ¿Es tu primera Tomatina?", "pl": "Cześć! To twoja pierwsza Tomatina?" },
+        { "es": "Sí. ¿A qué hora empieza?", "pl": "Tak. O której się zaczyna?" },
+        { "es": "A las once. Ponte esta camiseta blanca.", "pl": "O jedenastej. Włóż tę białą koszulkę." },
+        { "es": "¿Y después hay flamenco?", "pl": "A potem jest flamenco?" },
+        { "es": "Por la noche, en la plaza. ¡Olé!", "pl": "Wieczorem, na placu. Olé!" },
+        { "es": "¡Qué bien! ¿Vamos juntos?", "pl": "Jak świetnie! Idziemy razem?" },
+        { "es": "¡Vale! Hasta luego.", "pl": "Dobra! Do zobaczenia." }
+      ],
+      "slowa": [
+        { "es": "la camiseta", "pl": "koszulka", "fon": "la kamiseta" },
+        { "es": "la plaza", "pl": "plac", "fon": "la plasa" },
+        { "es": "vale", "pl": "dobra, okej", "fon": "bale" }
+      ]
+    }
+  ],
+  "wymowa": [
+    { "zasada": "H jest nieme", "przyklad": "hotel", "fon": "otel", "pl": "Nigdy go nie wymawiaj: hola brzmi ola." },
+    { "zasada": "J brzmi jak polskie ch", "przyklad": "jamón", "fon": "chamon", "pl": "Szynka: jamón. Gardłowe, jak chrząkanie." },
+    { "zasada": "LL brzmi jak j", "przyklad": "calle", "fon": "kaje", "pl": "Ulica: calle. Tak samo w słowie paella." },
+    { "zasada": "Ñ to miękkie ni", "przyklad": "niño", "fon": "ninio", "pl": "Dziecko: niño. Kreseczka zmienia wszystko." },
+    { "zasada": "RR jest drżące", "przyklad": "perro", "fon": "perro (wibrujące r)", "pl": "Pies: perro. Jedno r to pero (ale) — uważaj!" },
+    { "zasada": "C i Z: Hiszpania sepleni, Meksyk nie", "przyklad": "gracias", "fon": "graθjas (ES) / grasjas (MX)", "pl": "W Madrycie usłyszysz th, w Meksyku zwykłe s." },
+    { "zasada": "Akcent pisany pokazuje stres", "przyklad": "música", "fon": "MUsika", "pl": "Kreska mówi, którą sylabę zaakcentować. Bez kreski akcent pada zwykle na przedostatnią: taco." }
+  ]
+}

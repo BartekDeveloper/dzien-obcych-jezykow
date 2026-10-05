@@ -23,4 +23,4 @@ zgodnie z ich licencjami. Podpisy z autorem są też pod każdym zdjęciem na st
 | es-prado.jpg | Fasada Muzeum Prado, Madryt | Rene Boulay | CC BY-SA 3.0 |
 
 Ikony (`public/icons.svg`) i flagi SVG są rysowane kodem, własność projektu (CC0).
-Fonty: Fraunces i Source Sans 3 (SIL Open Font License 1.1, Google Fonts).
+Fonty: Comfortaa i Plus Jakarta Sans (SIL Open Font License 1.1, Google Fonts, self-host woff2 variable latin-ext).

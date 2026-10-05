@@ -1,43 +1,38 @@
 # Dzień Języków Obcych — Meksyk i Hiszpania 🇲🇽🇪🇸
 
-Wersja 3: dwa pawilony krajowe + strefa gier. W całości po polsku, statyczna, darmowy GitHub Pages.
-
-## Strony
-
-- `index.html` — prolog: po co Dzień Języków, jak korzystać, wybór pawilonu
-- `hiszpania.html` — 8 rozdziałów (geografia, oś czasu, święta, kuchnia, muzyka, zabytki, język, zwroty z lektorem es-ES) + quiz 12 pytań
-- `meksyk.html` — 8 rozdziałów + lektor es-MX + quiz 12 pytań
-- `gry.html` — pojedynek 12 pytań, memory 16 par, zagadki 12 pytań, kalambury 60 haseł (drużyny A/B)
+React 19 + Tailwind v4 + prerender SSG. Design: `DESIGN.md` („Iberia & México”, ekrany Stitch). Statyczny hosting GitHub Pages — za darmo.
 
 ## Komendy
 
 ```bash
 npm install
 npm run check    # JSON + zero-emoji + zmierzony kontrast WCAG 2.1 AA
-npm run dev      # podgląd
-npm run build    # buduje dist/
+npm run dev      # podgląd (nawigacja po ścieżkach działa w dev)
+npm run build    # Vite build → SSR bundle → prerender 4 tras + sitemap.xml
+npm run preview  # podgląd buildu
 ```
 
-Zasada: **najpierw `npm run check`, potem build**. Check wyłapuje niezbalansowane cudzysłowy i brak polskich znaków, zanim popsują build.
+`npm run build` generuje: `dist/index.html`, `dist/hiszpania/`, `dist/meksyk/`,
+`dist/gry/`, `dist/sitemap.xml`, `dist/404.html`. Treść jest w HTML
+(SSR `renderToString`) — strona czytelna z wyłączonym JavaScript.
 
-## Publikacja (darmo, GitHub Pages)
+## Struktura
 
-1. Repo `dzien-obcych-jezykow` na koncie `bartekdeveloper`, push na `main`.
-2. Workflow `.github/workflows/deploy.yml` buduje i wdraża sam.
-3. Adres: **https://bartekdeveloper.github.io/dzien-obcych-jezykow**
-4. Settings → Pages → Source: GitHub Actions.
+- `src/App.jsx` + `src/entry-{client,server}.jsx` — trasy `/`, `/hiszpania`, `/meksyk`, `/gry`
+- `src/pages/` — Start (hero, porównanie, glosariusz, moduły), Pawilon (8 rozdziałów z JSON), Arena (gry)
+- `src/components/` — Chrome (header/footer), Gry (Quiz+powtórka, Memory, Kalambury, Trabalenguas, Rekordy, Foto)
+- `src/lib/` — ui (Ik, Chip, Przycisk, linki z base), hooks (localStorage, timer, TTS, konfetti)
+- `src/data/*.json` — treści; `prerender.mjs` — SSG + sitemap
+- `public/foto/` — 16 zdjęć Wikimedia; `public/icons.svg` — 55 ikon SVG
+
+## Publikacja (GitHub Pages)
+
+Repo `dzien-obcych-jezykow` na `bartekdeveloper`, push na `main` —
+workflow `.github/workflows/deploy.yml` buduje i wdraża sam.
+Adres: **https://bartekdeveloper.github.io/dzien-obcych-jezykow**
 
 ## Jak dodać treść
 
-Wszystkie teksty są w `src/data/*.json` (pełny UTF-8, polskie znaki mile widziane):
-- pytanie quizu: `{ "p": "…", "o": ["a","b","c","d"], "c": 0 }` — `c` to indeks poprawnej
-- zwrot: `{ "es": "…", "pl": "…", "fon": "…" }`
-- hasło do kalamburów: dopisz string do tablicy `kalambury` w `gry.json`
-
-## Grafika i dostępność
-
-- Zero emoji (bramka w `npm run check`). Ikony: `public/icons.svg` (53 znaki konturowe + flagi ES/MX rysowane kodem), zawsze z etykietą tekstową.
-- Zdjęcia: `public/foto/` (13× JPG z Wikimedia Commons) + `ATRYBUCJE.md`. Karty bez zdjęcia używają ikony.
-- Fonty self-hosted variable woff2 (latin-ext): Fraunces + Source Sans 3.
-- Kontrast: `contrast.mjs` mierzy każdą parę (tekst ≥ 4,5:1, granice ≥ 3:1) — build nie przejdzie przy niespełnieniu.
-- Quizy mają ekran powtórki z wyjaśnieniami (pole `w` w JSON).
+- Pytanie: `{ "p": "…", "o": ["a","b","c","d"], "c": 0, "w": "wyjaśnienie" }`
+- Zwrot: `{ "es": "…", "pl": "…", "fon": "…" }` · hasło: string w `kalambury`
+- Para glosariusza: `{ "es": "…", "mx": "…", "pl": "…" }`

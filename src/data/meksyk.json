@@ -38,7 +38,7 @@
     { "rok": "1968 / dziś", "t": "Igrzyska i współczesność", "o": "Olimpiada w Meksyku (1968), mundial (1970, 1986, 2026), boom kuchni i kina meksykańskiego na świecie." }
   ],
   "swieta": [
-    { "icon": "i-czaszka", "plik": "foto/mx-ofrenda.jpg", "podpisFoto": "Fot. Luciernaga3, CC BY-SA 4.0, via Wikimedia Commons", "t": "Día de Muertos — 1–2 listopada", "d": "Najpiękniejsze święto Meksyku: rodziny budują kolorowe ołtarzyki (ofrendas) ze zdjęciami, jedzeniem i nagietkami, by dusze bliskich wróciły w gości. Parada czaszek Catrin w stolicy, chleb pan de muerto. To święto życia, nie strachu." },
+    { "icon": "i-czaszka", "plik": "foto/mx-ofrenda.jpg", "podpisFoto": "Fot. Luciernaga3, CC BY-SA 4.0, via Wikimedia Commons", "t": "Día de Muertos — 1–2 listopada", "d": "Najpiękniejsze święto Meksyku: rodziny budują kolorowe ołtarzyki (ofrendas) ze zdjęciami, jedzeniem i nagietkami, by dusze bliskich wróciły w gości. Parada katrin (Catrinas) w stolicy, chleb pan de muerto. To święto życia, nie strachu." },
     { "icon": "i-gwiazda", "plik": "foto/mx-pinata.jpg", "podpisFoto": "Fot. George Louis, CC BY-SA 3.0, via Wikimedia Commons (1961)", "t": "Las Posadas — 16–24 grudnia", "d": "Dziewięć wieczorów kolędowania: procesje z lampionami odtwarzają poszukiwanie noclegu przez Marię i Józefa. Finał to rozbijanie gwiaździstej piñaty pełnej owoców i słodyczy." },
     { "icon": "i-kwiat", "t": "Guelaguetza — Oaxaca, lipiec", "d": "Festiwal rdzennych ludów stanu Oaxaca: tańce w haftowanych strojach, muzyka bandas, a tancerze rzucają publiczności ananasy i chleb — dar wzajemności (guelaguetza)." },
     { "icon": "i-medal", "t": "Cinco de Mayo — 5 maja", "d": "Rocznica zwycięstwa pod Pueblą (1862). Parady wojskowe, mariachi i mole poblano — nie mylić z Dniem Niepodległości (16 września)!" },
@@ -55,7 +55,7 @@
     { "icon": "i-trabka", "plik": "foto/mx-mariachi.jpg", "podpisFoto": "Fot. José Luiz, CC BY-SA 4.0, via Wikimedia Commons", "t": "Mariachi", "d": "Skrzypce, trąbki, gitary i wielkie gitarony. Muzycy w haftowanych strojach charro śpiewają o miłości i ojczyźnie. Klasyki: La Bamba, Cielito Lindo, El Son de la Negra." },
     { "icon": "i-marakasy", "t": "Son jarocho i marakasy", "d": "Skoczna muzyka z Veracruz z małą harfą jaraną. Tancerze wystukują rytm na drewnianej platformie (tarima)." },
     { "icon": "i-czaszka", "t": "Calaveras literackie", "d": "Żartobliwe wierszyki o śmierci na Dzień Zmarłych — nawet politycy dostają swoją „kalawerę”. Śmiech oswaja przemijanie." },
-    { "icon": "i-gitara", "t": "Banda i norteño", "d": "Dęte orkiestry z Sinaloa i akordeonowy norteño z pogranicza USA. Podstawa każdej wiejskiej fiesty i quinceañery (15. urodzin)." }
+    { "icon": "i-gitara", "t": "Banda i norteño", "d": "Dęte orkiestry z Sinaloa i akordeonowy norteño z pogranicza USA. Podstawa każdej wiejskiej fiesty i quinceañery — fiesty z okazji 15. urodzin." }
   ],
   "zabytki": [
     { "icon": "i-piramida", "plik": "foto/mx-chichen.jpg", "podpisFoto": "Fot. Daniel Schwen, CC BY-SA 4.0, via Wikimedia Commons", "t": "Chichén Itzá, Jukatan", "d": "Piramida Kukulkana: 365 stopni jak dni w roku. W równonoc cień układa się w pełzającego węża. Jeden z 7 nowych cudów świata.", "foto": "Majowie, ok. 600–1200 n.e." },
@@ -63,7 +63,7 @@
     { "icon": "i-teatr", "plik": "foto/mx-bellas.jpg", "podpisFoto": "Fot. Jeses, CC BY-SA 2.5, via Wikimedia Commons", "t": "Palacio de Bellas Artes", "d": "Biały marmurowy pałac w stolicy z kurtyną z witraży Tiffany'ego. W środku murale Rivery i Orozco.", "foto": "secesja + art déco, 1934" },
     { "icon": "i-plac", "plik": "foto/mx-zocalo.jpg", "podpisFoto": "Fot. Cvmontuy, CC BY 4.0, via Wikimedia Commons", "t": "Zócalo", "d": "Plac Konstytucji — jeden z największych placów świata. Katedra, Pałac Narodowy z muralami i wielka flaga na maszcie.", "foto": "serce stolicy od czasów Azteków" },
     { "icon": "i-lodka", "plik": "foto/mx-xochimilco.jpg", "podpisFoto": "Fot. Syced, CC0, via Wikimedia Commons", "t": "Xochimilco", "d": "Pływające ogrody-chinampas i kolorowe łodzie trajineras. Mariachi podpływają do łodzi grać na życzenie.", "foto": "UNESCO, tradycja aztecka" },
-    { "icon": "i-gora", "t": "Monte Albán, Oaxaca", "d": "Zapoteccy wyrównali szczyt góry, by zbudować miasto-obserwatorium. Grobowce, boisko do gry w piłkę i pismo sprzed 2000 lat.", "foto": "Zapotekowie, ok. 500 p.n.e." }
+    { "icon": "i-gora", "t": "Monte Albán, Oaxaca", "d": "Zapotekowie wyrównali szczyt góry, by zbudować miasto-obserwatorium. Grobowce, boisko do gry w piłkę i pismo sprzed 2000 lat.", "foto": "Zapotekowie, ok. 500 p.n.e." }
   ],
   "jezyk": {
     "lead": "Meksykański hiszpański brzmi miękko i śpiewnie. Oto jego znaki szczególne:",

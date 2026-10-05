@@ -63,14 +63,14 @@
     { "icon": "i-meczet", "plik": "foto/es-mezquita.jpg", "podpisFoto": "Fot. Adrian Farwell, CC BY 3.0, via Wikimedia Commons", "t": "Mezquita, Kordoba", "d": "Las 856 kolumn z czerwono-białymi łukami. W środku dawnego meczetu stoi renesansowa katedra.", "foto": "meczet z 785 r., katedra z XVI w." },
     { "icon": "i-jaszczurka", "plik": "foto/es-guell.jpg", "podpisFoto": "Fot. Danbu14, CC BY-SA 3.0, via Wikimedia Commons", "t": "Park Güell, Barcelona", "d": "Bajkowy park Gaudiego: mozaikowa jaszczurka, falujące ławki i piernikowe domki.", "foto": "Gaudí, trencadís — mozaika z potłuczonych płytek" },
     { "icon": "i-luk", "plik": "foto/es-segovia.jpg", "podpisFoto": "Fot. Diego Delso, CC BY-SA 4.0, via Wikimedia Commons", "t": "Akwedukt, Segowia", "d": "Rzymski wodociąg z 167 granitowymi łukami, złożony bez zaprawy. Ma prawie 2000 lat i wciąż stoi.", "foto": "Rzym, ok. 50 r. n.e." },
-    { "icon": "i-obraz", "plik": "foto/es-prado.jpg", "podpisFoto": "Fot. Rene Boulay, CC BY-SA 3.0, via Wikimedia Commons", "t": "Muzeum Prado, Madryt", "d": "Velázquez, Goya, El Greco — jedna z najważniejszych galerii świata. Wejście gratis w ostatnich godzinach dnia.", "foto": "Las Meninas, Maja naga i ubrana" }
+    { "icon": "i-obraz", "plik": "foto/es-prado.jpg", "podpisFoto": "Fot. Rene Boulay, CC BY-SA 3.0, via Wikimedia Commons", "t": "Muzeum Prado, Madryt", "d": "Velázquez, Goya, El Greco — jedna z najważniejszych galerii świata. Wejście gratis w ostatnich godzinach dnia.", "foto": "Las Meninas, Maja ubrana i Maja naga" }
   ],
   "jezyk": {
     "lead": "Hiszpański z Hiszpanii brzmi inaczej niż meksykański. Oto znaki szczególne odmiany europejskiej:",
     "punkty": [
       "Ceceo: litery c (przed e, i) i z wymawia się jak angielskie th — gracias brzmi graθjas.",
       "Vosotros: Hiszpanie mówią do grupy vosotros (wy) z własną odmianą — ¿vosotros queréis? Meksykanie używają ustedes.",
-      "Vale i venga: uniwersalne vale (okej, dobra) usłyszysz co minutę. Tío/tía to potocznie ziomek, ziomka.",
+      "Vale i venga: uniwersalne vale (okej, dobra) usłyszysz co minutę. Tío/tía to potocznie ziomek, ziomalka.",
       "Anglicyzmy z hiszpańską wymową: el fútbol, el finde (weekend), hacer footing (biegać)."
     ]
   },

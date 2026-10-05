@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Tokeny: DESIGN.md „Iberia & México: Diálogo Transatlántico” */
+@theme {
+  --color-surface: #fff8f6;
+  --color-sand: #f6ecea;
+  --color-sanddeep: #f0e6e4;
+  --color-card: #ffffff;
+  --color-ink: #1f1b1a;
+  --color-muted: #59413e;
+  --color-line: #8d706d;
+  --color-linesoft: #e1bebb;
+  --color-primary: #7a0009;
+  --color-primarydeep: #9e1b1b;
+  --color-secondary: #206b43;
+  --color-tertiary: #003d63;
+  --color-focusring: #184e77;
+  --color-saffron: #c28704;
+  --color-gold: #ffd97a;
+
+  --font-display: "Comfortaa", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+
+  --text-display: 3.5rem;
+  --text-display--line-height: 4rem;
+  --text-h1: 2.5rem;
+  --text-h1--line-height: 3rem;
+  --text-h2: 2rem;
+  --text-h2--line-height: 2.5rem;
+}
+
+@font-face {
+  font-family: "Comfortaa"; font-style: normal; font-weight: 400 700;
+  font-display: swap; src: url("./assets/fonts/comfortaa-var-latinext.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 400 800;
+  font-display: swap; src: url("./assets/fonts/jakarta-var-latinext.woff2") format("woff2");
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-surface); color: var(--ink); }
+
+:focus-visible { outline: 3px solid var(--color-focusring); outline-offset: 3px; border-radius: 8px; }
+
+.skip-link { position: absolute; left: 14px; top: -70px; z-index: 200; background: #000; color: #fff;
+  padding: 12px 20px; border-radius: 10px; font-weight: 700; transition: top 0.18s; }
+.skip-link:focus { top: 12px; color: #fff; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.wodny { position: absolute; top: -0.35em; right: 0; z-index: 0; max-width: 100%; overflow: hidden;
+  font-family: var(--font-display); font-weight: 700; font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1;
+  color: transparent; -webkit-text-stroke: 1.5px #7a0009; opacity: 0.35;
+  pointer-events: none; user-select: none; white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) {
+  .wodny { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  html { scroll-behavior: auto; }
+}
